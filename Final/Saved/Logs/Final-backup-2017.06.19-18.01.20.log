@@ -1,0 +1,1490 @@
+﻿Log file open, 06/19/17 16:21:57
+LogInit:Display: Running engine for game: Final
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1040958503) SRandInit(1040958503).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.071487
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.19-07.21.58:394][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.19-07.21.58:394][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.19-07.21.58:403][  0]LogInit: Computer: DESKTOP-FU2J2BG
+[2017.06.19-07.21.58:403][  0]LogInit: User: 36
+[2017.06.19-07.21.58:403][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.19-07.21.58:403][  0]LogInit: High frequency timer resolution =3.328118 MHz
+[2017.06.19-07.21.58:403][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.06.19-07.21.58:403][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.19-07.21.58:403][  0]LogMemory: Process Physical Memory: 263.31 MB used, 263.31 MB peak
+[2017.06.19-07.21.58:403][  0]LogMemory: Process Virtual Memory: 262.52 MB used, 262.52 MB peak
+[2017.06.19-07.21.58:403][  0]LogMemory: Physical Memory: 3424.73 MB used,  4715.82 MB free, 8140.54 MB total
+[2017.06.19-07.21.58:403][  0]LogMemory: Virtual Memory: 644.18 MB used,  4715.82 MB free, 134217728.00 MB total
+[2017.06.19-07.21.58:464][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.06.19-07.21.58:495][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2017.06.19-07.21.58:495][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2017.06.19-07.21.58:495][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2017.06.19-07.21.58:495][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2017.06.19-07.21.58:739][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.19-07.21.58:774][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2017.06.19-07.21.58:774][  0]LogD3D11RHI:       3035/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.19-07.21.58:775][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.19-07.21.58:775][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.19-07.21.58:775][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.19-07.21.58:779][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.19-07.21.58:779][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.19-07.21.58:779][  0]LogWindows: EnumDisplayDevices:
+[2017.06.19-07.21.58:779][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2017.06.19-07.21.58:779][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.06.19-07.21.58:779][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.06.19-07.21.58:779][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.06.19-07.21.58:779][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.19-07.21.58:779][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2017.06.19-07.21.58:779][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.06.19-07.21.58:779][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.06.19-07.21.58:779][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.19-07.21.58:795][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.19-07.21.58:805][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.19-07.21.58:855][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../Users/36/Desktop/Final/Intermediate/Shaders/WorkingDirectory/7316/).
+[2017.06.19-07.21.58:855][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/36/AppData/Local/Temp/UnrealShaderWorkingDir/605E114E4D5861AB3801EE9D3D28E07A/'.
+[2017.06.19-07.21.58:855][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.19-07.21.59:724][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.19-07.21.59:770][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.19-07.21.59:817][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.19-07.21.59:862][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.19-07.21.59:907][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.19-07.21.59:953][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.19-07.21.59:999][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.19-07.22.00:047][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.19-07.22.00:085][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.19-07.22.00:129][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.19-07.22.00:173][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.19-07.22.00:216][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.19-07.22.00:258][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.19-07.22.00:302][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.19-07.22.00:347][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.19-07.22.00:433][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.19-07.22.00:433][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.19-07.22.00:463][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.19-07.22.00:545][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.19-07.22.00:573][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.19-07.22.00:624][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.19-07.22.00:667][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.19-07.22.00:711][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.19-07.22.00:757][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.19-07.22.00:757][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.19-07.22.01:119][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.19-07.22.01:174][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/36/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.19-07.22.01:174][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/36/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.19-07.22.01:174][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/36/Desktop/Final/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.19-07.22.01:174][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.19-07.22.01:174][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/36/Desktop/Final/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.19-07.22.01:174][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.19-07.22.01:190][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.19-07.22.01:202][  0]LogDerivedDataCache: Using Local data cache path C:/Users/36/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.19-07.22.01:211][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.19-07.22.01:212][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.19-07.22.01:212][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.19-07.22.01:414][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.19-07.22.01:416][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.19-07.22.01:586][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.19-07.22.01:632][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.19-07.22.01:681][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.19-07.22.01:681][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.19-07.22.01:681][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.19-07.22.02:244][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: final, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 210554964
+[2017.06.19-07.22.02:293][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.06.19-07.22.02:350][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.032122 seconds
+[2017.06.19-07.22.02:356][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.06.19-07.22.02:356][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.06.19-07.22.02:356][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.19-07.22.02:422][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.19-07.22.03:827][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.19-07.22.03:863][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.19-07.22.04:266][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.19-07.22.04:694][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.19-07.22.04:716][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.19-07.22.04:763][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.19-07.22.04:801][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.19-07.22.05:867][  0]LogEngine: Initializing Engine...
+[2017.06.19-07.22.05:867][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.19-07.22.06:059][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.19-07.22.06:066][  0]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-07.22.06:087][  0]LogInit: FAudioDevice initialized.
+[2017.06.19-07.22.06:115][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/36/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.19-07.22.06:122][  0]LogInit: Texture streaming: Enabled
+[2017.06.19-07.22.06:203][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.19-07.22.06:281][  0]LogInit: Transaction tracking system initialized
+[2017.06.19-07.22.06:608][  0]BlueprintLog: New page: 에디터 로드
+[2017.06.19-07.22.07:554][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.06.19-07.22.08:180][  0]LogConsoleResponse:Display: 
+[2017.06.19-07.22.08:293][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.19-07.22.08:293][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.19-07.22.09:086][  0]LogFileCache: Scanning file cache for directory 'C:/Users/36/Desktop/Final/Content/' took 0.01s
+[2017.06.19-07.22.09:121][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.19-07.22.09:121][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.19-07.22.09:121][  0]LightingResults: New page: 라이팅 빌드
+[2017.06.19-07.22.09:153][  0]MapCheck: New page: 맵 체크
+[2017.06.19-07.22.09:153][  0]LightingResults: New page: 라이팅 빌드
+[2017.06.19-07.22.09:305][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.06.19-07.22.09:306][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.06.19-07.22.09:310][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.19-07.22.09:313][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.19-07.22.09:342][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 29.01ms.
+[2017.06.19-07.22.09:342][  0]LogFileHelpers: Loading map 'Template_Default' took 0.221
+[2017.06.19-07.22.09:410][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.19-07.22.09:509][  0]LogCollectionManager: Loaded 0 collections in 0.001486 seconds
+[2017.06.19-07.22.09:584][  0]LogFileCache: Scanning file cache for directory 'C:/Users/36/Desktop/Final/Saved/Collections/' took 0.01s
+[2017.06.19-07.22.09:584][  0]LogFileCache: Scanning file cache for directory 'C:/Users/36/Desktop/Final/Content/Developers/36/Collections/' took 0.01s
+[2017.06.19-07.22.09:584][  0]LogFileCache: Scanning file cache for directory 'C:/Users/36/Desktop/Final/Content/Collections/' took 0.01s
+[2017.06.19-07.22.09:584][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.19-07.22.09:592][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2244 classes and 450 folders.
+[2017.06.19-07.22.09:595][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.19-07.22.09:595][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.19-07.22.09:648][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.19-07.22.09:683][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.19-07.22.09:717][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.19-07.22.09:807][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.19-07.22.09:814][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.06.19-07.22.09:876][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.19-07.22.09:876][  0]LogLoad: (Engine Initialization) Total time: 13.06 seconds
+[2017.06.19-07.22.09:876][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.06.19-07.22.09:876][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.19-07.22.09:876][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.19-07.22.09:888][  0]LogOcInput: OculusInput pre-init called
+[2017.06.19-07.22.09:906][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.19-07.22.09:908][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.19-07.22.09:912][  0]LogSlate: Took 0.002711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.06.19-07.22.09:914][  0]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.19-07.22.09:919][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.19-07.22.09:991][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.19-07.22.10:057][  0]LogRenderer: Reallocating scene render targets to support 672x540 NumSamples 1 (Frame:2).
+[2017.06.19-07.22.10:113][  1]LogAssetRegistry: Asset discovery search completed in 7.8415 seconds
+[2017.06.19-07.22.10:113][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.06.19-07.22.10:113][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2017.06.19-07.22.19:096][897]LogSourceControl:Error: '../../../../../../Users/36/Desktop/Final/' is not part of a Git repository
+[2017.06.19-07.22.20:240][ 33]SourceControl:Error: 오류 fatal: Not a git repository: 'C:/Users/36/Desktop/Final/.git'
+[2017.06.19-07.22.20:240][ 33]SourceControl:Error: 오류 Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.06.19-07.22.27:701][913]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.19-07.22.36:335][277]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.19-07.22.36:351][277]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-07.22.36:385][277]Cmd: MAP LOAD FILE="../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.19-07.22.36:385][277]LightingResults: New page: 라이팅 빌드
+[2017.06.19-07.22.36:387][277]LoadErrors: New page: 맵 로드중: FinalExamMap.umap
+[2017.06.19-07.22.36:387][277]MapCheck: New page: 맵 체크
+[2017.06.19-07.22.36:387][277]LightingResults: New page: 라이팅 빌드
+[2017.06.19-07.22.36:471][277]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.19-07.22.36:490][277]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.19-07.22.36:524][277]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 34.082ms.
+[2017.06.19-07.22.36:524][277]LogFileHelpers: Loading map 'FinalExamMap' took 0.140
+[2017.06.19-07.22.40:827][631]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.06.19-07.22.41:525][631]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.19-07.22.41:954][631]LogSlate: Took 0.016085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.19-07.22.43:761][785]LogSlate: Took 0.024281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.19-07.22.54:606][986]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.19-07.22.56:146][ 11]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Final
+
+[2017.06.19-07.22.56:146][ 11]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.19-07.22.56:146][ 11]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.06.19-07.22.56:146][ 11]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.19-07.22.56:146][ 11]LogTemp:Display: BranchPath = DESKTOP-FU2J2BG/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-FU2J2BG/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.06.19-07.22.56:162][ 13]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\36\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.06.19-07.22.56:162][ 13]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.06.19-07.22.56:162][ 13]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.06.19-07.22.56:162][ 13]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.06.19-07.22.56:162][ 13]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.06.19-07.22.56:162][ 13]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.06.19-07.22.58:900][320]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.19-07.24.08:114][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-07.24.08:166][410]LogSavePackage: Save=45.66ms
+[2017.06.19-07.24.08:166][410]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPA2FA276643D6A75EA656459534AD05A2.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-07.24.08:171][410]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-07.24.14:548][168]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-07.24.15:134][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-07.24.15:165][221]LogSavePackage: Save=29.00ms
+[2017.06.19-07.24.15:165][221]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP370F856C4B4BB8F3B49A9EAFD4A30798.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-07.24.15:169][221]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-07.24.32:645][249]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-07.24.33:346][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-07.24.33:379][317]LogSavePackage: Save=30.00ms
+[2017.06.19-07.24.33:379][317]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP0E84513D42B5B14138B03C95D2821554.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-07.24.33:382][317]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-07.24.35:613][582]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-07.24.35:630][582]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-07.24.35:631][582]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 1:24:35)
+[2017.06.19-07.24.35:631][582]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-07.24.35:633][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002092s)
+[2017.06.19-07.24.35:634][582]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-07.24.35:634][582]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2017.06.19-07.24.35:634][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003324s)
+[2017.06.19-07.24.35:647][582]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-07.24.35:655][582]LogInit: FAudioDevice initialized.
+[2017.06.19-07.24.35:729][582]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-07.24.35:732][582]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-16.24.35
+[2017.06.19-07.24.35:732][582]LogWorld: Bringing up level for play took: 0.000832
+[2017.06.19-07.24.35:767][582]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.06.19-07.24.35:769][582]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.298
+[2017.06.19-07.25.07:316][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-07.25.07:341][309]LogSavePackage: Save=23.46ms
+[2017.06.19-07.25.07:341][309]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP58CDBBF746F54F46ED154580748F8336.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-07.25.07:343][309]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-07.25.34:993][354]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.19-07.25.35:635][354]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.06.19-07.25.35:793][354]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.06.19-07.25.36:011][355]LogRenderer: Reallocating scene render targets to support 760x540 NumSamples 1 (Frame:7087).
+[2017.06.19-07.25.37:716][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/RunBlend" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset" SILENT=true
+[2017.06.19-07.25.37:728][515]LogSavePackage: Save=10.64ms
+[2017.06.19-07.25.37:728][515]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/RunBlendEDB0014A4A612E09915A899A14E68C94.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset'
+[2017.06.19-07.25.37:730][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset
+[2017.06.19-07.25.46:787][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/RunBlend" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset" SILENT=true
+[2017.06.19-07.25.46:796][587]LogSavePackage: Save=4.64ms
+[2017.06.19-07.25.46:796][587]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/RunBlend578FABFF4EB1B4883C258D92556395F8.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset'
+[2017.06.19-07.25.46:798][587]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset
+[2017.06.19-07.25.47:601][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/RunBlend" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset" SILENT=true
+[2017.06.19-07.25.47:606][682]LogSavePackage: Save=3.79ms
+[2017.06.19-07.25.47:606][682]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/RunBlend8428BB0945240DF412322199C71F872C.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset'
+[2017.06.19-07.25.47:607][682]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset
+[2017.06.19-07.25.47:787][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/RunBlend" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset" SILENT=true
+[2017.06.19-07.25.47:793][702]LogSavePackage: Save=3.92ms
+[2017.06.19-07.25.47:793][702]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/RunBlend4AEB5A0F4920ACA162C65D850C19BA58.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset'
+[2017.06.19-07.25.47:794][702]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset
+[2017.06.19-07.25.52:559][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/RunBlend" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset" SILENT=true
+[2017.06.19-07.25.52:572][269]LogSavePackage: Save=10.68ms
+[2017.06.19-07.25.52:572][269]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/RunBlend901B784D4C67F6717997A497062AA22F.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset'
+[2017.06.19-07.25.52:574][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset
+[2017.06.19-07.25.53:130][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/RunBlend" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset" SILENT=true
+[2017.06.19-07.25.53:135][334]LogSavePackage: Save=3.65ms
+[2017.06.19-07.25.53:135][334]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/RunBlend5FB25D194BC48916792BC4B30CA03898.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset'
+[2017.06.19-07.25.53:136][334]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/RunBlend.uasset
+[2017.06.19-07.26.28:280][ 72]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.06.19-07.26.28:463][ 72]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.06.19-07.26.29:311][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-07.26.29:327][147]LogSavePackage: Save=13.72ms
+[2017.06.19-07.26.29:327][147]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP68D60EF74A6032CEEFFA2C9761DDE824.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-07.26.29:329][147]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-07.26.56:233][324]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-07.26.56:236][324]LogBlueprint:Warning: [Compiler AnimationBP] 경고  New State Machine  입구 노드가 스테이트에 연결되지 않았습니다.
+[2017.06.19-07.26.56:236][324]LogBlueprint:Warning: [Compiler AnimationBP] 경고  New State Machine  에 입구 스테이트 연결이 없습니다.
+[2017.06.19-07.26.56:327][324]BlueprintEditorCompileResults:Warning: 경고  New State Machine  입구 노드가 스테이트에 연결되지 않았습니다.
+[2017.06.19-07.26.56:327][324]BlueprintEditorCompileResults:Warning: 경고  New State Machine  에 입구 스테이트 연결이 없습니다.
+[2017.06.19-07.26.56:328][324]LogBlueprint:Warning: [Compiler AnimationBP] 경고 [0299.51] AnimationBP 컴파일에 성공했습니다만, 경고가 2 회 있습니다. [소요시간 94 ms] (/Game/Animation/AnimationBP.AnimationBP)
+[2017.06.19-07.26.56:800][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-07.26.56:822][375]LogSavePackage: Save=14.12ms
+[2017.06.19-07.26.56:822][375]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP4C8E27B14F2F69C5704F3EA239B956D7.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-07.26.56:825][375]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-07.27.26:508][922]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-07.27.27:312][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-07.27.27:330][  2]LogSavePackage: Save=15.58ms
+[2017.06.19-07.27.27:330][  2]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP6A6F8C294CED965F683855888E6F53DD.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-07.27.27:333][  2]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-07.28.38:617][170]LogWindows: LaunchURL http://docs.unrealengine.com/latest/KOR/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2017.06.19-07.28.43:723][573]LogMetaData: Removing '/Game/Gun/GunBP.GunBP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Gun/Gun.PackageMetaData'
+[2017.06.19-07.28.43:723][573]LogMetaData: Removing '/Game/Gun/GunBP.SKEL_GunBP_C' ref from Metadata '/Game/Gun/Gun.PackageMetaData'
+[2017.06.19-07.28.43:723][573]LogMetaData: Removing '/Game/Gun/GunBP.GunBP_C' ref from Metadata '/Game/Gun/Gun.PackageMetaData'
+[2017.06.19-07.28.43:723][573]LogMetaData: Removing '/Game/Gun/GunBP.GunBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Gun/Gun.PackageMetaData'
+[2017.06.19-07.28.43:723][573]LogMetaData: Removing '/Game/Gun/GunBP.GunBP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Gun/Gun.PackageMetaData'
+[2017.06.19-07.28.43:723][573]LogMetaData: Removing '/Game/Gun/GunBP.GunBP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Gun/Gun.PackageMetaData'
+[2017.06.19-07.28.43:734][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset" SILENT=true
+[2017.06.19-07.28.43:743][573]LogSavePackage: Save=7.92ms
+[2017.06.19-07.28.43:743][573]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBP3A2AC469454CC06D10E950BFCB38D4A2.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset'
+[2017.06.19-07.28.43:745][573]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset
+[2017.06.19-07.28.45:451][734]LogRenderer: Reallocating scene render targets to support 760x668 NumSamples 1 (Frame:30939).
+[2017.06.19-07.29.54:209][830]LogEditorTransaction: Undo 컴포넌트 변경
+[2017.06.19-07.29.54:211][830]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.06.19-07.30.20:281][900]BlueprintLog: New page: GunBP 컴파일
+[2017.06.19-07.30.21:198][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/Gun" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/Gun.uasset" SILENT=true
+[2017.06.19-07.30.21:205][973]LogSavePackage: Save=5.18ms
+[2017.06.19-07.30.21:205][973]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/Gun0620705245FEF19AF52F0EB448500DC0.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/Gun.uasset'
+[2017.06.19-07.30.21:207][973]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/Gun.uasset
+[2017.06.19-07.30.21:220][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset" SILENT=true
+[2017.06.19-07.30.21:242][973]LogSavePackage: Save=16.91ms
+[2017.06.19-07.30.21:242][973]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBP75E5FCDB4C82BA8E3247DFB5D7C086A1.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset'
+[2017.06.19-07.30.21:245][973]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset
+[2017.06.19-07.30.35:756][705]BlueprintLog: New page: GunBP 컴파일
+[2017.06.19-07.30.36:486][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset" SILENT=true
+[2017.06.19-07.30.36:506][757]LogSavePackage: Save=17.19ms
+[2017.06.19-07.30.36:506][757]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBPA8168F374B47E0A80A1907AFF2EAFFD6.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset'
+[2017.06.19-07.30.36:509][757]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset
+[2017.06.19-07.30.49:530][206]LogMetaData: Removing '/Game/Gun/BulletBP.BulletBP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Gun/Bullet.PackageMetaData'
+[2017.06.19-07.30.49:530][206]LogMetaData: Removing '/Game/Gun/BulletBP.SKEL_BulletBP_C' ref from Metadata '/Game/Gun/Bullet.PackageMetaData'
+[2017.06.19-07.30.49:530][206]LogMetaData: Removing '/Game/Gun/BulletBP.BulletBP_C' ref from Metadata '/Game/Gun/Bullet.PackageMetaData'
+[2017.06.19-07.30.49:530][206]LogMetaData: Removing '/Game/Gun/BulletBP.BulletBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Gun/Bullet.PackageMetaData'
+[2017.06.19-07.30.49:530][206]LogMetaData: Removing '/Game/Gun/BulletBP.BulletBP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Gun/Bullet.PackageMetaData'
+[2017.06.19-07.30.49:530][206]LogMetaData: Removing '/Game/Gun/BulletBP.BulletBP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Gun/Bullet.PackageMetaData'
+[2017.06.19-07.30.49:542][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.06.19-07.30.49:552][206]LogSavePackage: Save=8.87ms
+[2017.06.19-07.30.49:552][206]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/BulletBPF1C8B6F84CF43B2B9B7346994780D2F1.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset'
+[2017.06.19-07.30.49:554][206]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset
+[2017.06.19-07.31.12:471][887]LogEditorTransaction: Undo 컴포넌트 변경
+[2017.06.19-07.31.12:474][887]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.06.19-07.31.24:473][311]LogEditorTransaction: Undo 컴포넌트 변경
+[2017.06.19-07.31.24:476][311]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.06.19-07.31.43:424][550]BlueprintLog: New page: BulletBP 컴파일
+[2017.06.19-07.31.44:077][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/Bullet" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/Bullet.uasset" SILENT=true
+[2017.06.19-07.31.44:082][584]LogSavePackage: Save=3.25ms
+[2017.06.19-07.31.44:082][584]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/Bullet27F6438F41F72C21AC5DF9BDBFB64924.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/Bullet.uasset'
+[2017.06.19-07.31.44:085][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/Bullet.uasset
+[2017.06.19-07.31.44:097][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.06.19-07.31.44:118][584]LogSavePackage: Save=15.68ms
+[2017.06.19-07.31.44:118][584]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/BulletBP0A660EBA409EC949E98ED6B549D0A52A.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset'
+[2017.06.19-07.31.44:121][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset
+[2017.06.19-07.32.03:993][944]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.03:994][944]LogTemp:Display: Added material ShaderMap 0x0000022BAEBB5980 with Material 0x0000022B86F5E480 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.04:008][944]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BAEBB5980
+[2017.06.19-07.32.04:084][944]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.04:085][944]LogTemp:Display: Added material ShaderMap 0x0000022BB84E1D00 with Material 0x0000022B86F5E480 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.04:092][944]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BB84E1D00
+[2017.06.19-07.32.04:092][944]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.32.05:530][ 79]LogTemp:Display: Finished compile of shader map 0x0000022BB84E1D00
+[2017.06.19-07.32.05:530][ 79]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000022BB84E1D00, marking material BulletMT as finished
+[2017.06.19-07.32.05:530][ 79]LogTemp:Display: Marking material as finished 0x0000022B86F5E480
+[2017.06.19-07.32.05:536][ 80]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.06.19-07.32.05:536][ 80]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.06.19-07.32.05:536][ 80]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.06.19-07.32.07:634][328]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.07:635][328]LogTemp:Display: Added material ShaderMap 0x0000022BAE975D00 with Material 0x0000022B86F5E480 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.07:642][328]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BAE975D00
+[2017.06.19-07.32.07:642][328]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.32.07:643][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.06.19-07.32.07:644][328]LogTemp:Display: Added material ShaderMap 0x0000022BB2CC5980 with Material 0x0000022BB819C400 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.07:645][328]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant4Vector_0, GameThreadShaderMap 0x0000022BB2CC5980
+[2017.06.19-07.32.08:446][416]LogTemp:Display: Finished compile of shader map 0x0000022BAE975D00
+[2017.06.19-07.32.08:446][416]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000022BAE975D00, marking material BulletMT as finished
+[2017.06.19-07.32.08:446][416]LogTemp:Display: Marking material as finished 0x0000022B86F5E480
+[2017.06.19-07.32.08:453][417]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.06.19-07.32.08:453][417]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.06.19-07.32.08:453][417]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.06.19-07.32.08:537][427]LogTemp:Display: Finished compile of shader map 0x0000022BB2CC5980
+[2017.06.19-07.32.08:537][427]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant4Vector_0 complete, GameThreadShaderMap 0x0000022BB2CC5980, marking material FMatExpressionPreview MaterialExpressionConstant4Vector_0 as finished
+[2017.06.19-07.32.08:537][427]LogTemp:Display: Marking material as finished 0x0000022BB819C400
+[2017.06.19-07.32.09:671][551]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.09:671][551]LogTemp:Display: Added material ShaderMap 0x0000022BBCD0D600 with Material 0x0000022B86F5E480 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.09:679][551]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BBCD0D600
+[2017.06.19-07.32.09:679][551]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.32.09:704][551]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.06.19-07.32.09:704][551]LogTemp:Display: Added material ShaderMap 0x0000022BBCDF2780 with Material 0x0000022BBCD43A00 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.09:706][551]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant4Vector_0, GameThreadShaderMap 0x0000022BBCDF2780
+[2017.06.19-07.32.10:507][636]LogTemp:Display: Finished compile of shader map 0x0000022BBCD0D600
+[2017.06.19-07.32.10:507][636]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000022BBCD0D600, marking material BulletMT as finished
+[2017.06.19-07.32.10:507][636]LogTemp:Display: Marking material as finished 0x0000022B86F5E480
+[2017.06.19-07.32.10:513][637]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.06.19-07.32.10:513][637]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.06.19-07.32.10:513][637]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.06.19-07.32.10:547][641]LogTemp:Display: Finished compile of shader map 0x0000022BBCDF2780
+[2017.06.19-07.32.10:547][641]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant4Vector_0 complete, GameThreadShaderMap 0x0000022BBCDF2780, marking material FMatExpressionPreview MaterialExpressionConstant4Vector_0 as finished
+[2017.06.19-07.32.10:547][641]LogTemp:Display: Marking material as finished 0x0000022BBCD43A00
+[2017.06.19-07.32.11:324][734]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.11:325][734]LogTemp:Display: Added material ShaderMap 0x0000022BBCD9AE80 with Material 0x0000022B86F5E480 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.11:332][734]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BBCD9AE80
+[2017.06.19-07.32.11:332][734]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.32.11:360][734]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.06.19-07.32.11:362][734]LogTemp:Display: Added material ShaderMap 0x0000022BBCDF1280 with Material 0x0000022BBCC92500 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.11:365][734]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant4Vector_0, GameThreadShaderMap 0x0000022BBCDF1280
+[2017.06.19-07.32.12:165][821]LogTemp:Display: Finished compile of shader map 0x0000022BBCD9AE80
+[2017.06.19-07.32.12:165][821]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000022BBCD9AE80, marking material BulletMT as finished
+[2017.06.19-07.32.12:165][821]LogTemp:Display: Marking material as finished 0x0000022B86F5E480
+[2017.06.19-07.32.12:171][822]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.06.19-07.32.12:171][822]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.06.19-07.32.12:171][822]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.06.19-07.32.12:196][825]LogTemp:Display: Finished compile of shader map 0x0000022BBCDF1280
+[2017.06.19-07.32.12:197][825]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant4Vector_0 complete, GameThreadShaderMap 0x0000022BBCDF1280, marking material FMatExpressionPreview MaterialExpressionConstant4Vector_0 as finished
+[2017.06.19-07.32.12:197][825]LogTemp:Display: Marking material as finished 0x0000022BBCC92500
+[2017.06.19-07.32.15:081][171]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.15:081][171]LogTemp:Display: Added material ShaderMap 0x0000022BBCCD5D00 with Material 0x0000022B86F5E480 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.15:089][171]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BBCCD5D00
+[2017.06.19-07.32.15:089][171]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.32.15:118][171]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.06.19-07.32.15:118][171]LogTemp:Display: Added material ShaderMap 0x0000022BBCDF2780 with Material 0x0000022BBCD41000 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.15:120][171]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant4Vector_0, GameThreadShaderMap 0x0000022BBCDF2780
+[2017.06.19-07.32.15:899][257]LogTemp:Display: Finished compile of shader map 0x0000022BBCCD5D00
+[2017.06.19-07.32.15:899][257]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000022BBCCD5D00, marking material BulletMT as finished
+[2017.06.19-07.32.15:899][257]LogTemp:Display: Marking material as finished 0x0000022B86F5E480
+[2017.06.19-07.32.15:907][258]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.06.19-07.32.15:907][258]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.06.19-07.32.15:907][258]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.06.19-07.32.15:965][265]LogTemp:Display: Finished compile of shader map 0x0000022BBCDF2780
+[2017.06.19-07.32.15:965][265]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant4Vector_0 complete, GameThreadShaderMap 0x0000022BBCDF2780, marking material FMatExpressionPreview MaterialExpressionConstant4Vector_0 as finished
+[2017.06.19-07.32.15:965][265]LogTemp:Display: Marking material as finished 0x0000022BBCD41000
+[2017.06.19-07.32.18:668][587]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.18:669][587]LogTemp:Display: Added material ShaderMap 0x0000022BBCBA7C80 with Material 0x0000022B86F5E480 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.18:676][587]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BBCBA7C80
+[2017.06.19-07.32.18:677][587]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.32.19:437][670]LogTemp:Display: Finished compile of shader map 0x0000022BBCBA7C80
+[2017.06.19-07.32.19:437][670]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000022BBCBA7C80, marking material BulletMT as finished
+[2017.06.19-07.32.19:437][670]LogTemp:Display: Marking material as finished 0x0000022B86F5E480
+[2017.06.19-07.32.19:443][671]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.06.19-07.32.19:443][671]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.06.19-07.32.19:443][671]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.06.19-07.32.22:371][ 22]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.22:371][ 22]LogTemp:Display: Added material ShaderMap 0x0000022BBCD0F200 with Material 0x0000022B86F5E480 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.22:378][ 22]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BBCD0F200
+[2017.06.19-07.32.22:378][ 22]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.32.23:121][108]LogTemp:Display: Finished compile of shader map 0x0000022BBCD0F200
+[2017.06.19-07.32.23:121][108]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000022BBCD0F200, marking material BulletMT as finished
+[2017.06.19-07.32.23:121][108]LogTemp:Display: Marking material as finished 0x0000022B86F5E480
+[2017.06.19-07.32.23:127][109]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.06.19-07.32.23:127][109]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.06.19-07.32.23:127][109]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.06.19-07.32.25:311][360]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.25:312][360]LogTemp:Display: Added material ShaderMap 0x0000022BBCD0C480 with Material 0x0000022B86F5E480 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.25:319][360]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BBCD0C480
+[2017.06.19-07.32.25:319][360]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.32.26:069][440]LogTemp:Display: Finished compile of shader map 0x0000022BBCD0C480
+[2017.06.19-07.32.26:069][440]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000022BBCD0C480, marking material BulletMT as finished
+[2017.06.19-07.32.26:069][440]LogTemp:Display: Marking material as finished 0x0000022B86F5E480
+[2017.06.19-07.32.26:074][441]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.06.19-07.32.26:074][441]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.06.19-07.32.26:074][441]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.06.19-07.32.27:594][623]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.27:595][623]LogTemp:Display: Added material ShaderMap 0x0000022BBCDD4B80 with Material 0x0000022B86F5E480 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.27:601][623]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BBCDD4B80
+[2017.06.19-07.32.27:602][623]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.32.27:630][623]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.06.19-07.32.27:631][623]LogTemp:Display: Added material ShaderMap 0x0000022BBCBA7200 with Material 0x0000022BBCE96200 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.27:633][623]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant4Vector_0, GameThreadShaderMap 0x0000022BBCBA7200
+[2017.06.19-07.32.28:390][707]LogTemp:Display: Finished compile of shader map 0x0000022BBCDD4B80
+[2017.06.19-07.32.28:390][707]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000022BBCDD4B80, marking material BulletMT as finished
+[2017.06.19-07.32.28:390][707]LogTemp:Display: Marking material as finished 0x0000022B86F5E480
+[2017.06.19-07.32.28:396][708]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.06.19-07.32.28:396][708]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.06.19-07.32.28:396][708]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.06.19-07.32.28:439][713]LogTemp:Display: Finished compile of shader map 0x0000022BBCBA7200
+[2017.06.19-07.32.28:439][713]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant4Vector_0 complete, GameThreadShaderMap 0x0000022BBCBA7200, marking material FMatExpressionPreview MaterialExpressionConstant4Vector_0 as finished
+[2017.06.19-07.32.28:439][713]LogTemp:Display: Marking material as finished 0x0000022BBCE96200
+[2017.06.19-07.32.29:259][811]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.29:259][811]LogTemp:Display: Added material ShaderMap 0x0000022BB313AB00 with Material 0x0000022B86F5E480 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.29:266][811]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BB313AB00
+[2017.06.19-07.32.29:266][811]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.32.30:036][899]LogTemp:Display: Finished compile of shader map 0x0000022BB313AB00
+[2017.06.19-07.32.30:036][899]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000022BB313AB00, marking material BulletMT as finished
+[2017.06.19-07.32.30:036][899]LogTemp:Display: Marking material as finished 0x0000022B86F5E480
+[2017.06.19-07.32.30:041][900]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.06.19-07.32.30:041][900]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.06.19-07.32.30:041][900]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.06.19-07.32.31:349][ 56]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.31:350][ 56]LogTemp:Display: Added material ShaderMap 0x0000022BBCDD5600 with Material 0x0000022B86F5E480 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.31:357][ 56]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BBCDD5600
+[2017.06.19-07.32.31:357][ 56]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.32.32:139][146]LogTemp:Display: Finished compile of shader map 0x0000022BBCDD5600
+[2017.06.19-07.32.32:139][146]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000022BBCDD5600, marking material BulletMT as finished
+[2017.06.19-07.32.32:139][146]LogTemp:Display: Marking material as finished 0x0000022B86F5E480
+[2017.06.19-07.32.32:144][147]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 81 instructions
+[2017.06.19-07.32.32:144][147]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.06.19-07.32.32:144][147]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.06.19-07.32.33:743][338]LogMaterialEditor: Saving and Compiling material BulletMT
+[2017.06.19-07.32.34:185][338]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.34:185][338]LogTemp:Display: Added material ShaderMap 0x0000022BBCBA7900 with Material 0x0000022B86F5E480 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.34:200][338]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BBCBA7900
+[2017.06.19-07.32.34:200][338]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.32.34:221][338]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.34:221][338]LogTemp:Display: Added material ShaderMap 0x0000022B1A4B9980 with Material 0x0000022BAF3A2B00 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.34:238][338]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022B1A4B9980
+[2017.06.19-07.32.34:240][338]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.06.19-07.32.34:240][338]LogTemp:Display: Added material ShaderMap 0x0000022BC1F68F00 with Material 0x0000022BAF3A2B00 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.34:252][338]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000022BC1F68F00
+[2017.06.19-07.32.34:253][338]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.32.34:284][338]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BulletMT, compiling. 
+[2017.06.19-07.32.34:285][338]LogTemp:Display: Added material ShaderMap 0x0000022BC6437580 with Material 0x0000022BB819E200 to ShaderMapsBeingCompiled
+[2017.06.19-07.32.34:794][338]LogTemp:Display: Finished compile of shader map 0x0000022BC6437580
+[2017.06.19-07.32.34:794][338]LogTemp:Display: Shader map FDebugViewModeMaterialProxy BulletMT complete, GameThreadShaderMap 0x0000022BC6437580, marking material FDebugViewModeMaterialProxy BulletMT as finished
+[2017.06.19-07.32.34:794][338]LogTemp:Display: Marking material as finished 0x0000022BB819E200
+[2017.06.19-07.32.34:799][338]TextureStreamingBuild:Display: Compiling optional shaders took 0.521 seconds.
+[2017.06.19-07.32.36:015][338]LogTemp:Display: Finished compile of shader map 0x0000022BC1F68F00
+[2017.06.19-07.32.36:015][338]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000022BC1F68F00, marking material BulletMT as finished
+[2017.06.19-07.32.36:015][338]LogTemp:Display: Marking material as finished 0x0000022BAF3A2B00
+[2017.06.19-07.32.36:022][338]LogTemp:Display: Finished compile of shader map 0x0000022BBCBA7900
+[2017.06.19-07.32.36:022][338]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000022BBCBA7900, marking material BulletMT as finished
+[2017.06.19-07.32.36:022][338]LogTemp:Display: Marking material as finished 0x0000022B86F5E480
+[2017.06.19-07.32.36:050][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletMT" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/BulletMT.uasset" SILENT=true
+[2017.06.19-07.32.36:062][338]LogSavePackage: Save=10.44ms
+[2017.06.19-07.32.36:062][338]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/BulletMT2D8DCACD4043106DF8D3BFBC63226BC8.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/BulletMT.uasset'
+[2017.06.19-07.32.36:064][338]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/BulletMT.uasset
+[2017.06.19-07.32.36:068][338]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 81 instructions
+[2017.06.19-07.32.36:068][338]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.06.19-07.32.36:068][338]MaterialEditorStats: 정보 Texture samplers: 2/16
+[2017.06.19-07.32.55:926][686]BlueprintLog: New page: BulletBP 컴파일
+[2017.06.19-07.32.56:667][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.06.19-07.32.56:686][733]LogSavePackage: Save=16.80ms
+[2017.06.19-07.32.56:686][733]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/BulletBP593046BA4BF6E69AF1F1398A92807459.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset'
+[2017.06.19-07.32.56:688][733]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset
+[2017.06.19-07.33.28:557][532]BlueprintLog: New page: BulletBP 컴파일
+[2017.06.19-07.33.29:165][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.06.19-07.33.29:184][577]LogSavePackage: Save=16.31ms
+[2017.06.19-07.33.29:184][577]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/BulletBP3BBFC04445D8886D2DF0A68261712AA9.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset'
+[2017.06.19-07.33.29:187][577]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset
+[2017.06.19-07.34.00:680][337]BlueprintLog: New page: BulletBP 컴파일
+[2017.06.19-07.34.01:235][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.06.19-07.34.01:267][373]LogSavePackage: Save=29.52ms
+[2017.06.19-07.34.01:267][373]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/BulletBP6CD0FE3A448E13BF7F417E9575B1072C.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset'
+[2017.06.19-07.34.01:270][373]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset
+[2017.06.19-07.34.11:359][575]BlueprintLog: New page: BulletBP 컴파일
+[2017.06.19-07.34.11:937][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.06.19-07.34.11:955][627]LogSavePackage: Save=16.51ms
+[2017.06.19-07.34.11:955][627]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/BulletBP54C479ED4A75BC7C391AC4B2045B8A78.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset'
+[2017.06.19-07.34.11:958][627]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset
+[2017.06.19-07.34.22:734][901]BlueprintLog: New page: BulletBP 컴파일
+[2017.06.19-07.34.23:436][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.06.19-07.34.23:455][949]LogSavePackage: Save=16.30ms
+[2017.06.19-07.34.23:455][949]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/BulletBP18A8B9A04498A5AFA25752A9D45E559B.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset'
+[2017.06.19-07.34.23:458][949]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset
+[2017.06.19-07.35.20:904][585]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.19-07.35.28:098][417]BlueprintLog: New page: GunBP 컴파일
+[2017.06.19-07.35.28:769][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset" SILENT=true
+[2017.06.19-07.35.28:806][466]LogSavePackage: Save=28.88ms
+[2017.06.19-07.35.28:806][466]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBPE26BB7AA480BCEAB0666BCB271D80A85.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset'
+[2017.06.19-07.35.28:808][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset
+[2017.06.19-07.36.10:381][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset" SILENT=true
+[2017.06.19-07.36.10:406][221]LogSavePackage: Save=20.89ms
+[2017.06.19-07.36.10:406][221]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBP2900432447B377C79FF7A89104437CAD.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset'
+[2017.06.19-07.36.10:409][221]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset
+[2017.06.19-07.36.11:115][301]BlueprintLog: New page: GunBP 컴파일
+[2017.06.19-07.36.16:269][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset" SILENT=true
+[2017.06.19-07.36.16:292][890]LogSavePackage: Save=19.93ms
+[2017.06.19-07.36.16:292][890]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBP05850BB141303896BE3B3082BE73DBEC.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset'
+[2017.06.19-07.36.16:295][890]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset
+[2017.06.19-07.36.47:906][496]BlueprintLog: New page: GunBP 컴파일
+[2017.06.19-07.36.48:612][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset" SILENT=true
+[2017.06.19-07.36.48:634][559]LogSavePackage: Save=20.48ms
+[2017.06.19-07.36.48:634][559]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBP537A62ED41BD3BFF67698D9D8BFEAC50.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset'
+[2017.06.19-07.36.48:637][559]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset
+[2017.06.19-07.37.05:625][582]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-07.37.05:639][582]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-07.37.05:639][582]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 1:37:05)
+[2017.06.19-07.37.05:639][582]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-07.37.05:641][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001866s)
+[2017.06.19-07.37.05:642][582]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-07.37.05:642][582]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2017.06.19-07.37.05:642][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003272s)
+[2017.06.19-07.37.05:660][582]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-07.37.05:667][582]LogInit: FAudioDevice initialized.
+[2017.06.19-07.37.05:694][582]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-07.37.05:696][582]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-16.37.05
+[2017.06.19-07.37.05:696][582]LogWorld: Bringing up level for play took: 0.000763
+[2017.06.19-07.37.05:697][582]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.369
+[2017.06.19-07.37.10:638][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset" SILENT=true
+[2017.06.19-07.37.10:655][171]LogSavePackage: Save=14.58ms
+[2017.06.19-07.37.10:655][171]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBP755887ED40144E786AA1EB9276B5D0D6.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset'
+[2017.06.19-07.37.10:658][171]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset
+[2017.06.19-07.37.43:604][ 73]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.06.19-07.37.43:633][ 73]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.06.19-07.37.43:818][ 74]LogRenderer: Reallocating scene render targets to support 760x832 NumSamples 1 (Frame:87874).
+[2017.06.19-07.38.03:290][301]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.19-07.38.03:952][301]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Final
+
+[2017.06.19-07.38.03:952][301]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.19-07.38.03:952][301]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.06.19-07.38.03:952][301]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.19-07.38.03:952][301]LogTemp:Display: BranchPath = DESKTOP-FU2J2BG/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-FU2J2BG/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.06.19-07.38.03:952][301]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\36\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.06.19-07.38.03:952][301]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.06.19-07.38.03:952][301]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.06.19-07.38.03:952][301]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.06.19-07.38.03:952][301]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.06.19-07.38.03:952][301]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.06.19-07.38.36:644][105]LogSlate: Took 0.017009 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.19-07.38.42:416][782]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-07.38.43:103][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-07.38.43:139][827]LogSavePackage: Save=30.40ms
+[2017.06.19-07.38.43:139][827]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP2783A91C42B527B9C8D4C1BB708E38FC.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-07.38.43:142][827]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-07.39.07:085][562]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-07.39.07:096][562]LogBlueprint:Error: [Compiler HeroBP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  GunBP 에 형변환  에 무언가를 연결하세요.
+[2017.06.19-07.39.07:096][562]LogBlueprint:Error: [Compiler HeroBP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type Object 와일드카드 on pin Object
+[2017.06.19-07.39.07:237][562]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  GunBP 에 형변환  에 무언가를 연결하세요.
+[2017.06.19-07.39.07:237][562]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type Object 와일드카드 on pin Object
+[2017.06.19-07.39.07:238][562]LogBlueprint:Warning: [Compiler HeroBP] 경고 [1030.42] HeroBP 컴파일에 실패했습니다. 치명적 문제 2 회, 경고 0 회, [소요시간 152 ms] (/Game/HeroBP.HeroBP)
+[2017.06.19-07.39.56:561][128]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.19-07.40.17:294][552]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-07.40.17:305][552]LogBlueprint:Error: [Compiler HeroBP] 오류 ' Spawn Transform ' 핀의 현재 값이 유효하지 않습니다: 'Spawn Transform' 핀에는 반드시 입력이 연결되어 있어야 합니다 ("by ref" 파라미터는 작업하기에 유효한 입력을 기대합니다).
+[2017.06.19-07.40.17:305][552]LogBlueprint:Error: [Compiler HeroBP] 오류 ' Spawn Transform ' 핀의 현재 값이 유효하지 않습니다: 'Spawn Transform' 핀에는 반드시 입력이 연결되어 있어야 합니다 ("by ref" 파라미터는 작업하기에 유효한 입력을 기대합니다).
+[2017.06.19-07.40.17:449][552]BlueprintEditorCompileResults:Error: 오류 ' Spawn Transform ' 핀의 현재 값이 유효하지 않습니다: 'Spawn Transform' 핀에는 반드시 입력이 연결되어 있어야 합니다 ("by ref" 파라미터는 작업하기에 유효한 입력을 기대합니다).
+[2017.06.19-07.40.17:449][552]BlueprintEditorCompileResults:Error: 오류 ' Spawn Transform ' 핀의 현재 값이 유효하지 않습니다: 'Spawn Transform' 핀에는 반드시 입력이 연결되어 있어야 합니다 ("by ref" 파라미터는 작업하기에 유효한 입력을 기대합니다).
+[2017.06.19-07.40.17:449][552]LogBlueprint:Warning: [Compiler HeroBP] 경고 [1100.63] HeroBP 컴파일에 실패했습니다. 치명적 문제 2 회, 경고 0 회, [소요시간 154 ms] (/Game/HeroBP.HeroBP)
+[2017.06.19-07.41.11:171][307]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-07.41.11:181][307]LogBlueprint:Error: [Compiler HeroBP] 오류 이 블루프린트(self)는 SceneComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.06.19-07.41.11:326][307]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 SceneComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.06.19-07.41.11:326][307]LogBlueprint:Warning: [Compiler HeroBP] 경고 [1154.51] HeroBP 컴파일에 실패했습니다. 치명적 문제 1 회, 경고 0 회, [소요시간 154 ms] (/Game/HeroBP.HeroBP)
+[2017.06.19-07.41.11:845][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-07.41.11:890][353]LogSavePackage: Save=41.33ms
+[2017.06.19-07.41.11:890][353]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP18B0E3FB473E9420BD835C9FCA4C7417.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-07.41.11:893][353]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-07.41.20:877][357]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-07.41.21:718][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-07.41.21:752][408]LogSavePackage: Save=31.27ms
+[2017.06.19-07.41.21:752][408]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPECFDA6DD414CE0598A86F8BC577EB97E.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-07.41.21:755][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-07.42.15:941][496]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-07.42.16:538][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-07.42.16:561][549]LogSavePackage: Save=16.62ms
+[2017.06.19-07.42.16:561][549]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP261BC6BC437EF9E0FC5F4F967DF1200C.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-07.42.16:564][549]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-07.44.04:241][407]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-07.44.04:246][407]LogBlueprint:Error: [Compiler AnimationBP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  HeroBP 에 형변환  에 무언가를 연결하세요.
+[2017.06.19-07.44.04:246][407]LogBlueprint:Error: [Compiler AnimationBP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type Object 와일드카드 on pin Object
+[2017.06.19-07.44.04:391][407]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  HeroBP 에 형변환  에 무언가를 연결하세요.
+[2017.06.19-07.44.04:391][407]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type Object 와일드카드 on pin Object
+[2017.06.19-07.44.04:391][407]LogBlueprint:Warning: [Compiler AnimationBP] 경고 [1327.58] AnimationBP 컴파일에 실패했습니다. 치명적 문제 2 회, 경고 0 회, [소요시간 150 ms] (/Game/Animation/AnimationBP.AnimationBP)
+[2017.06.19-07.44.05:505][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-07.44.05:530][517]LogSavePackage: Save=21.61ms
+[2017.06.19-07.44.05:530][517]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBPB0B7D3794F19707C23AB0AA9018A6449.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-07.44.05:532][517]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-07.45.40:568][ 97]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.06.19-07.45.40:625][ 97]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.06.19-07.45.54:799][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/Punching" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/Punching.uasset" SILENT=true
+[2017.06.19-07.45.54:812][723]LogSavePackage: Save=11.02ms
+[2017.06.19-07.45.54:812][723]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/Punching1B810AB84E89FC39E5AC6981200FBD00.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/Punching.uasset'
+[2017.06.19-07.45.54:815][723]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/Punching.uasset
+[2017.06.19-07.47.45:207][187]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.19-07.48.03:195][ 23]BlueprintLog: New page: EnemyBP 컴파일
+[2017.06.19-07.48.04:521][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.06.19-07.48.04:562][ 66]LogSavePackage: Save=38.20ms
+[2017.06.19-07.48.04:562][ 66]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/EnemyBPD336B96D440678DD74A2AD831BFFEA24.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Enemy/EnemyBP.uasset'
+[2017.06.19-07.48.04:565][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Enemy/EnemyBP.uasset
+[2017.06.19-07.48.20:076][584]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.06.19-07.48.20:078][584]LogTemp:Display: Added material ShaderMap 0x0000022C34591280 with Material 0x0000022C34627B80 to ShaderMapsBeingCompiled
+[2017.06.19-07.48.20:148][584]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000022C34591280
+[2017.06.19-07.48.23:488][759]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.06.19-07.48.23:491][759]LogTemp:Display: Added material ShaderMap 0x0000022C36350480 with Material 0x0000022B144C4900 to ShaderMapsBeingCompiled
+[2017.06.19-07.48.23:560][759]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000022C36350480
+[2017.06.19-07.48.23:683][759]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.06.19-07.48.23:685][759]LogTemp:Display: Added material ShaderMap 0x0000022C373E3580 with Material 0x0000022B144C4900 to ShaderMapsBeingCompiled
+[2017.06.19-07.48.23:745][759]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000022C373E3580
+[2017.06.19-07.48.23:745][759]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.48.23:774][759]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.06.19-07.48.23:775][759]LogTemp:Display: Added material ShaderMap 0x0000022C3BFAF580 with Material 0x0000022C3BFB3A00 to ShaderMapsBeingCompiled
+[2017.06.19-07.48.23:778][759]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x0000022C3BFAF580
+[2017.06.19-07.48.23:779][759]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.19-07.48.23:780][759]LogTemp:Display: Added material ShaderMap 0x0000022C3BFADD00 with Material 0x0000022C3BFB3700 to ShaderMapsBeingCompiled
+[2017.06.19-07.48.23:783][759]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000022C3BFADD00
+[2017.06.19-07.48.23:784][759]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.06.19-07.48.23:785][759]LogTemp:Display: Added material ShaderMap 0x0000022C3BFAC800 with Material 0x0000022C3BFB2B00 to ShaderMapsBeingCompiled
+[2017.06.19-07.48.23:788][759]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, GameThreadShaderMap 0x0000022C3BFAC800
+[2017.06.19-07.48.23:789][759]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.06.19-07.48.23:790][759]LogTemp:Display: Added material ShaderMap 0x0000022C2E34E400 with Material 0x0000022C3BFB2200 to ShaderMapsBeingCompiled
+[2017.06.19-07.48.23:794][759]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, GameThreadShaderMap 0x0000022C2E34E400
+[2017.06.19-07.48.30:889][214]LogTemp:Display: Finished compile of shader map 0x0000022C3BFAF580
+[2017.06.19-07.48.30:889][214]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_4 complete, GameThreadShaderMap 0x0000022C3BFAF580, marking material FMatExpressionPreview MaterialExpressionTextureSample_4 as finished
+[2017.06.19-07.48.30:889][214]LogTemp:Display: Marking material as finished 0x0000022C3BFB3A00
+[2017.06.19-07.48.30:952][220]LogTemp:Display: Finished compile of shader map 0x0000022C373E3580
+[2017.06.19-07.48.30:952][220]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x0000022C373E3580, marking material M_UE4Man_Body as finished
+[2017.06.19-07.48.30:952][220]LogTemp:Display: Marking material as finished 0x0000022B144C4900
+[2017.06.19-07.48.30:968][221]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 97 instructions
+[2017.06.19-07.48.30:968][221]MaterialEditorStats: 정보 Vertex shader: 31 instructions
+[2017.06.19-07.48.30:968][221]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2017.06.19-07.48.31:046][228]LogTemp:Display: Finished compile of shader map 0x0000022C3BFADD00
+[2017.06.19-07.48.31:046][228]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_3 complete, GameThreadShaderMap 0x0000022C3BFADD00, marking material FMatExpressionPreview MaterialExpressionVectorParameter_3 as finished
+[2017.06.19-07.48.31:046][228]LogTemp:Display: Marking material as finished 0x0000022C3BFB3700
+[2017.06.19-07.48.31:164][238]LogTemp:Display: Finished compile of shader map 0x0000022C3BFAC800
+[2017.06.19-07.48.31:164][238]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 complete, GameThreadShaderMap 0x0000022C3BFAC800, marking material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 as finished
+[2017.06.19-07.48.31:164][238]LogTemp:Display: Marking material as finished 0x0000022C3BFB2B00
+[2017.06.19-07.48.31:243][246]LogTemp:Display: Finished compile of shader map 0x0000022C2E34E400
+[2017.06.19-07.48.31:243][246]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 complete, GameThreadShaderMap 0x0000022C2E34E400, marking material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 as finished
+[2017.06.19-07.48.31:243][246]LogTemp:Display: Marking material as finished 0x0000022C3BFB2200
+[2017.06.19-07.48.34:221][494]LogTemp:Display: Finished compile of shader map 0x0000022C34591280
+[2017.06.19-07.48.34:221][494]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x0000022C34591280, marking material M_UE4Man_Body as finished
+[2017.06.19-07.48.34:221][494]LogTemp:Display: Marking material as finished 0x0000022C34627B80
+[2017.06.19-07.48.38:441][961]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.06.19-07.48.38:442][961]LogTemp:Display: Added material ShaderMap 0x0000022C34514800 with Material 0x0000022B144C4900 to ShaderMapsBeingCompiled
+[2017.06.19-07.48.38:484][961]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000022C34514800
+[2017.06.19-07.48.38:484][961]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.48.38:512][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.19-07.48.38:513][961]LogTemp:Display: Added material ShaderMap 0x0000022C342CA780 with Material 0x0000022C356CBA00 to ShaderMapsBeingCompiled
+[2017.06.19-07.48.38:516][961]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000022C342CA780
+[2017.06.19-07.48.44:576][432]LogTemp:Display: Finished compile of shader map 0x0000022C342CA780
+[2017.06.19-07.48.44:576][432]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_3 complete, GameThreadShaderMap 0x0000022C342CA780, marking material FMatExpressionPreview MaterialExpressionVectorParameter_3 as finished
+[2017.06.19-07.48.44:576][432]LogTemp:Display: Marking material as finished 0x0000022C356CBA00
+[2017.06.19-07.48.44:645][440]LogTemp:Display: Finished compile of shader map 0x0000022C34514800
+[2017.06.19-07.48.44:645][440]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x0000022C34514800, marking material M_UE4Man_Body as finished
+[2017.06.19-07.48.44:645][440]LogTemp:Display: Marking material as finished 0x0000022B144C4900
+[2017.06.19-07.48.44:655][441]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 97 instructions
+[2017.06.19-07.48.44:655][441]MaterialEditorStats: 정보 Vertex shader: 31 instructions
+[2017.06.19-07.48.44:655][441]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2017.06.19-07.48.45:217][508]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.06.19-07.48.45:219][508]LogTemp:Display: Added material ShaderMap 0x0000022C34279980 with Material 0x0000022B144C4900 to ShaderMapsBeingCompiled
+[2017.06.19-07.48.45:261][508]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000022C34279980
+[2017.06.19-07.48.45:261][508]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.48.45:288][508]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.19-07.48.45:289][508]LogTemp:Display: Added material ShaderMap 0x0000022C34332780 with Material 0x0000022C356CBA00 to ShaderMapsBeingCompiled
+[2017.06.19-07.48.45:293][508]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000022C34332780
+[2017.06.19-07.48.47:867][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/M_UE4Man_Body" FILE="../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_Body.uasset" SILENT=true
+[2017.06.19-07.48.47:897][717]LogSavePackage: Save=27.73ms
+[2017.06.19-07.48.47:897][717]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/M_UE4Man_BodyAE99A9C140DA96BCCC5ADA92A249193A.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_Body.uasset'
+[2017.06.19-07.48.47:900][717]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_Body.uasset
+[2017.06.19-07.48.47:927][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/M_UE4Man_ChestLogo" FILE="../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_ChestLogo.uasset" SILENT=true
+[2017.06.19-07.48.47:950][717]LogSavePackage: Save=19.09ms
+[2017.06.19-07.48.47:950][717]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/M_UE4Man_ChestLogo2DAE484C4CE3AD62CA8535A8BE03EE2D.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_ChestLogo.uasset'
+[2017.06.19-07.48.47:953][717]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_ChestLogo.uasset
+[2017.06.19-07.48.51:511][ 62]LogTemp:Display: Finished compile of shader map 0x0000022C34332780
+[2017.06.19-07.48.51:511][ 62]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_3 complete, GameThreadShaderMap 0x0000022C34332780, marking material FMatExpressionPreview MaterialExpressionVectorParameter_3 as finished
+[2017.06.19-07.48.51:512][ 62]LogTemp:Display: Marking material as finished 0x0000022C356CBA00
+[2017.06.19-07.48.51:588][ 71]LogTemp:Display: Finished compile of shader map 0x0000022C34279980
+[2017.06.19-07.48.51:588][ 71]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x0000022C34279980, marking material M_UE4Man_Body as finished
+[2017.06.19-07.48.51:588][ 71]LogTemp:Display: Marking material as finished 0x0000022B144C4900
+[2017.06.19-07.48.51:595][ 72]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 97 instructions
+[2017.06.19-07.48.51:595][ 72]MaterialEditorStats: 정보 Vertex shader: 31 instructions
+[2017.06.19-07.48.51:595][ 72]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2017.06.19-07.48.53:374][226]LogRenderer: Reallocating scene render targets to support 928x868 NumSamples 1 (Frame:154918).
+[2017.06.19-07.49.03:904][460]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.06.19-07.49.03:905][460]LogTemp:Display: Added material ShaderMap 0x0000022BDF6AF200 with Material 0x0000022C35655780 to ShaderMapsBeingCompiled
+[2017.06.19-07.49.03:961][460]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000022BDF6AF200
+[2017.06.19-07.49.03:962][460]LogTemp:Display: Added shader map 0x0000022BDF6AF200 from material 0x0000022C35655780
+[2017.06.19-07.49.03:962][460]LogTemp:Display: Found existing compiling shader for material M_UE4Man_Body, linking to other GameThreadShaderMap 0x0000022BDF6AF200
+[2017.06.19-07.49.03:963][460]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.06.19-07.49.11:885][389]LogTemp:Display: Finished compile of shader map 0x0000022BDF6AF200
+[2017.06.19-07.49.11:885][389]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x0000022BDF6AF200, marking material M_UE4Man_Body as finished
+[2017.06.19-07.49.11:885][389]LogTemp:Display: Marking material as finished 0x0000022C35655780
+[2017.06.19-07.49.12:975][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/M_UE4Man_ChestLogo" FILE="../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_ChestLogo.uasset" SILENT=true
+[2017.06.19-07.49.12:996][517]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.06.19-07.49.12:997][517]LogTemp:Display: Added material ShaderMap 0x0000022C373E3900 with Material 0x0000022BDF181F00 to ShaderMapsBeingCompiled
+[2017.06.19-07.49.13:155][517]LogTemp:Display: Finished compile of shader map 0x0000022C373E3900
+[2017.06.19-07.49.13:155][517]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_ChestLogo complete, GameThreadShaderMap 0x0000022C373E3900, marking material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo as finished
+[2017.06.19-07.49.13:155][517]LogTemp:Display: Marking material as finished 0x0000022BDF181F00
+[2017.06.19-07.49.13:157][517]TextureStreamingBuild:Display: Compiling optional shaders took 0.165 seconds.
+[2017.06.19-07.49.13:217][517]LogSavePackage: Save=22.96ms
+[2017.06.19-07.49.13:217][517]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/M_UE4Man_ChestLogo28508785427328F5D04F3BBBD9395222.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_ChestLogo.uasset'
+[2017.06.19-07.49.13:219][517]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_ChestLogo.uasset
+[2017.06.19-07.49.41:519][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/M_UE4Man_ChestLogo" FILE="../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_ChestLogo.uasset" SILENT=true
+[2017.06.19-07.49.41:540][803]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.06.19-07.49.41:542][803]LogTemp:Display: Added material ShaderMap 0x0000022C37362080 with Material 0x0000022BDF181F00 to ShaderMapsBeingCompiled
+[2017.06.19-07.49.41:848][803]LogTemp:Display: Finished compile of shader map 0x0000022C37362080
+[2017.06.19-07.49.41:848][803]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_ChestLogo complete, GameThreadShaderMap 0x0000022C37362080, marking material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo as finished
+[2017.06.19-07.49.41:848][803]LogTemp:Display: Marking material as finished 0x0000022BDF181F00
+[2017.06.19-07.49.41:851][803]TextureStreamingBuild:Display: Compiling optional shaders took 0.314 seconds.
+[2017.06.19-07.49.41:882][803]LogSavePackage: Save=13.30ms
+[2017.06.19-07.49.41:882][803]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/M_UE4Man_ChestLogoB7EB858E466948091FCA25AA8476180D.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_ChestLogo.uasset'
+[2017.06.19-07.49.41:885][803]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_ChestLogo.uasset
+[2017.06.19-07.49.47:286][110]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.06.19-07.49.47:288][110]LogTemp:Display: Added material ShaderMap 0x0000022C3C270F00 with Material 0x0000022B144C4900 to ShaderMapsBeingCompiled
+[2017.06.19-07.49.47:346][110]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000022C3C270F00
+[2017.06.19-07.49.47:347][110]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.19-07.49.47:368][110]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.06.19-07.49.47:371][110]LogTemp:Display: Added material ShaderMap 0x0000022C372A8800 with Material 0x0000022C34624A00 to ShaderMapsBeingCompiled
+[2017.06.19-07.49.47:458][110]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000022C372A8800
+[2017.06.19-07.49.47:461][110]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.06.19-07.49.47:463][110]LogTemp:Display: Added material ShaderMap 0x0000022BDED34B80 with Material 0x0000022C34624A00 to ShaderMapsBeingCompiled
+[2017.06.19-07.49.47:540][110]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000022BDED34B80
+[2017.06.19-07.49.47:544][110]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.06.19-07.49.47:546][110]LogTemp:Display: Added material ShaderMap 0x0000022C42B56080 with Material 0x0000022C35655780 to ShaderMapsBeingCompiled
+[2017.06.19-07.49.47:636][110]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000022C42B56080
+[2017.06.19-07.49.47:638][110]LogMaterial: 0.10 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.06.19-07.49.47:713][110]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.06.19-07.49.47:716][110]LogTemp:Display: Added material ShaderMap 0x0000022C479EFC80 with Material 0x0000022C47ABB100 to ShaderMapsBeingCompiled
+[2017.06.19-07.49.52:027][110]LogTemp:Display: Finished compile of shader map 0x0000022C479EFC80
+[2017.06.19-07.49.52:027][110]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_Body complete, GameThreadShaderMap 0x0000022C479EFC80, marking material FDebugViewModeMaterialProxy M_UE4Man_Body as finished
+[2017.06.19-07.49.52:027][110]LogTemp:Display: Marking material as finished 0x0000022C47ABB100
+[2017.06.19-07.49.52:031][110]TextureStreamingBuild:Display: Compiling optional shaders took 4.324 seconds.
+[2017.06.19-07.49.52:264][110]LogTemp:Display: Finished compile of shader map 0x0000022C3C270F00
+[2017.06.19-07.49.52:264][110]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x0000022C3C270F00, marking material M_UE4Man_Body as finished
+[2017.06.19-07.49.52:264][110]LogTemp:Display: Marking material as finished 0x0000022B144C4900
+[2017.06.19-07.50.01:520][808]LogTemp:Display: Finished compile of shader map 0x0000022BDED34B80
+[2017.06.19-07.50.01:520][808]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x0000022BDED34B80, marking material M_UE4Man_Body as finished
+[2017.06.19-07.50.01:521][808]LogTemp:Display: Marking material as finished 0x0000022C34624A00
+[2017.06.19-07.50.05:391][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/M_UE4Man_Body" FILE="../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_Body.uasset" SILENT=true
+[2017.06.19-07.50.05:430][113]LogSavePackage: Save=28.50ms
+[2017.06.19-07.50.05:430][113]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/M_UE4Man_Body098D1F374E0B76CC7F76D7AD551DB21E.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_Body.uasset'
+[2017.06.19-07.50.05:433][113]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Enemy/M_UE4Man_Body.uasset
+[2017.06.19-07.50.07:717][380]LogTemp:Display: Finished compile of shader map 0x0000022C42B56080
+[2017.06.19-07.50.07:717][380]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x0000022C42B56080, marking material M_UE4Man_Body as finished
+[2017.06.19-07.50.07:717][380]LogTemp:Display: Marking material as finished 0x0000022C35655780
+[2017.06.19-07.50.14:467][950]BlueprintLog: New page: EnemyBP 컴파일
+[2017.06.19-07.50.16:114][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.06.19-07.50.16:141][ 35]LogSavePackage: Save=21.31ms
+[2017.06.19-07.50.16:141][ 35]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/EnemyBP3DB007454F769D2ACFE933A41F4EF56D.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Enemy/EnemyBP.uasset'
+[2017.06.19-07.50.16:144][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Enemy/EnemyBP.uasset
+[2017.06.19-07.50.59:796][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyAIController" FILE="../../../../../../Users/36/Desktop/Final/Content/Enemy/EnemyAIController.uasset" SILENT=true
+[2017.06.19-07.50.59:805][502]LogSavePackage: Save=8.09ms
+[2017.06.19-07.50.59:805][502]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/EnemyAIController95E616D44C4A358F585D2E97131D5E28.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Enemy/EnemyAIController.uasset'
+[2017.06.19-07.50.59:809][502]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Enemy/EnemyAIController.uasset
+[2017.06.19-07.51.08:983][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.19-07.51.37:633][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.19-07.51.38:460][879]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.06.19-07.52.08:261][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FinalExamMap" FILE="../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.19-07.52.08:325][372]LogSavePackage: Save=40.25ms
+[2017.06.19-07.52.08:325][372]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/FinalExamMapABAD13DB46E6FCCDB7B198B652444A0E.tmp' to '../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap'
+[2017.06.19-07.52.08:327][372]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap
+[2017.06.19-07.52.08:359][372]LogFileHelpers: Saving map 'FinalExamMap' took 0.141
+[2017.06.19-07.52.14:030][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.19-07.52.29:037][538]LogActorFactory: Actor Factory created Cube
+[2017.06.19-07.52.30:260][684]LogActorFactory: Actor Factory created Cube
+[2017.06.19-07.53.29:742][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.19-07.53.35:815][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.06.19-07.53.56:419][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.19-07.54.23:164][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.06.19-07.54.34:636][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2017.06.19-07.54.53:550][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.19-07.55.00:850][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.06.19-07.55.09:001][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.19-07.55.11:245][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.06.19-07.55.20:623][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2017.06.19-07.55.54:506][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.06.19-07.56.00:513][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.19-07.56.26:201][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.06.19-07.56.27:821][111]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2017.06.19-07.56.34:709][625]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2017.06.19-07.56.53:996][118]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-07.56.54:033][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-07.56.57:502][179]LogTemp:Display: Removed shader map 0x0000022C36350480 from material 0x0000022B144C4900
+[2017.06.19-07.56.57:502][179]LogTemp:Display: Removed shader map 0x0000022BAEBB5980 from material 0x0000022B86F5E480
+[2017.06.19-07.56.57:556][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FinalExamMap" FILE="../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.19-07.56.57:597][179]LogSavePackage: Save=22.58ms
+[2017.06.19-07.56.57:597][179]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/FinalExamMap68D6431E4D8429D2E3964E946F568985.tmp' to '../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap'
+[2017.06.19-07.56.57:601][179]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap
+[2017.06.19-07.56.57:621][179]LogFileHelpers: Saving map 'FinalExamMap' took 0.107
+[2017.06.19-07.56.58:374][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FinalExamMap" FILE="../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.19-07.56.58:415][267]LogSavePackage: Save=23.00ms
+[2017.06.19-07.56.58:415][267]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/FinalExamMap1371B4FE4D58BF288D216A96813CC60F.tmp' to '../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap'
+[2017.06.19-07.56.58:417][267]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap
+[2017.06.19-07.56.59:195][354]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-07.56.59:212][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-07.57.00:069][354]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 1:57:00)
+[2017.06.19-07.57.00:070][354]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-07.57.00:071][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001533s)
+[2017.06.19-07.57.00:072][354]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-07.57.00:072][354]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2017.06.19-07.57.00:072][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002662s)
+[2017.06.19-07.57.00:091][354]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-07.57.00:099][354]LogInit: FAudioDevice initialized.
+[2017.06.19-07.57.00:128][354]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-07.57.00:131][354]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-16.57.00
+[2017.06.19-07.57.00:131][354]LogWorld: Bringing up level for play took: 0.001036
+[2017.06.19-07.57.00:133][354]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.066
+[2017.06.19-07.57.22:776][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.19-07.57.32:560][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.19-07.57.41:264][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.19-07.57.43:164][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.19-07.57.43:655][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2017.06.19-07.58.03:172][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2017.06.19-07.58.08:598][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2017.06.19-07.58.29:738][571]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.19-07.58.32:783][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2017.06.19-07.59.21:109][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2017.06.19-07.59.36:448][259]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2017.06.19-07.59.37:173][290]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2017.06.19-07.59.37:912][325]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2017.06.19-07.59.38:620][352]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2017.06.19-07.59.58:113][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FinalExamMap" FILE="../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.19-07.59.58:165][ 69]LogSavePackage: Save=24.07ms
+[2017.06.19-07.59.58:165][ 69]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/FinalExamMap686FE0714D664EBB113220B7CBD67622.tmp' to '../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap'
+[2017.06.19-07.59.58:168][ 69]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap
+[2017.06.19-07.59.58:195][ 69]LogFileHelpers: Saving map 'FinalExamMap' took 0.126
+[2017.06.19-08.00.16:779][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.19-08.00.29:125][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2017.06.19-08.00.58:153][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2017.06.19-08.01.11:008][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2017.06.19-08.01.15:974][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2017.06.19-08.01.34:570][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FinalExamMap" FILE="../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.19-08.01.34:617][872]LogSavePackage: Save=26.10ms
+[2017.06.19-08.01.34:617][872]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/FinalExamMap7223561D46E997DF04622088A0B6B935.tmp' to '../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap'
+[2017.06.19-08.01.34:620][872]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap
+[2017.06.19-08.01.42:509][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2017.06.19-08.02.58:093][669]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.19-08.03.01:748][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2017.06.19-08.03.41:582][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2017.06.19-08.04.17:480][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2017.06.19-08.04.25:066][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FinalExamMap" FILE="../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.19-08.04.25:116][ 42]LogSavePackage: Save=28.23ms
+[2017.06.19-08.04.25:116][ 42]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/FinalExamMap75F353F9451CF57D9EFEC6B05F005598.tmp' to '../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap'
+[2017.06.19-08.04.25:119][ 42]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap
+[2017.06.19-08.06.19:576][348]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.06.19:583][348]LogBlueprint:Error: [Compiler AnimationBP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  HeroBP 에 형변환  에 무언가를 연결하세요.
+[2017.06.19-08.06.19:583][348]LogBlueprint:Error: [Compiler AnimationBP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type Object 와일드카드 on pin Object
+[2017.06.19-08.06.19:740][348]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  HeroBP 에 형변환  에 무언가를 연결하세요.
+[2017.06.19-08.06.19:740][348]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type Object 와일드카드 on pin Object
+[2017.06.19-08.06.19:741][348]LogBlueprint:Warning: [Compiler AnimationBP] 경고 [2662.93] AnimationBP 컴파일에 실패했습니다. 치명적 문제 2 회, 경고 0 회, [소요시간 164 ms] (/Game/Animation/AnimationBP.AnimationBP)
+[2017.06.19-08.06.20:696][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.06.20:727][436]LogSavePackage: Save=21.31ms
+[2017.06.19-08.06.20:727][436]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP363AC52A48DF183C417CB8A6CB2F4881.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.06.20:730][436]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.06.42:344][519]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.06.43:172][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.06.43:196][592]LogSavePackage: Save=22.05ms
+[2017.06.19-08.06.43:196][592]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP71181D5846ECC4D1541EEEADF2235038.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.06.43:199][592]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.07.08:267][255]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.19-08.07.11:536][642]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.07.12:958][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.07.12:999][701]LogSavePackage: Save=33.10ms
+[2017.06.19-08.07.12:999][701]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP5DE607D84CC01F27F08E8FA1AB006A9F.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.07.13:002][701]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.07.13:023][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.07.13:046][701]LogSavePackage: Save=21.07ms
+[2017.06.19-08.07.13:046][701]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBPCF2861F0402124A02669CE99CEFB9BB0.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.07.13:049][701]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.07.15:442][983]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-08.07.15:462][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-08.07.15:462][983]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 2:07:15)
+[2017.06.19-08.07.15:462][983]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-08.07.15:464][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001838s)
+[2017.06.19-08.07.15:465][983]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-08.07.15:465][983]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2017.06.19-08.07.15:465][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003130s)
+[2017.06.19-08.07.15:486][983]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-08.07.15:494][983]LogInit: FAudioDevice initialized.
+[2017.06.19-08.07.15:527][983]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-08.07.15:529][983]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-17.07.15
+[2017.06.19-08.07.15:529][983]LogWorld: Bringing up level for play took: 0.000930
+[2017.06.19-08.07.15:531][983]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.536
+[2017.06.19-08.10.49:570][323]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.10.50:544][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.10.50:582][381]LogSavePackage: Save=34.78ms
+[2017.06.19-08.10.50:582][381]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP9959340443283896318E22BB4A9D244F.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.10.50:585][381]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.11.28:250][952]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.11.29:040][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.11.29:073][  4]LogSavePackage: Save=31.48ms
+[2017.06.19-08.11.29:073][  4]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPBEBB27B0432D1BAC0787D7AFF9A49EF0.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.11.29:075][  4]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.12.29:235][920]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.12.30:183][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.12.30:224][971]LogSavePackage: Save=33.29ms
+[2017.06.19-08.12.30:224][971]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP585F69D44EC5E781175C56B0E8B7E2E3.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.12.30:227][971]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.13.24:335][ 21]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.13.24:518][ 21]BlueprintEditorCompileResults: 정보 'Gun' 는 이미 'Gun BP' 여서  GunBP 에 형변환  필요가 없습니다.
+[2017.06.19-08.13.25:277][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.13.25:314][ 82]LogSavePackage: Save=34.43ms
+[2017.06.19-08.13.25:314][ 82]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP65BE57FB4C8811DBD32EC0959B61D43B.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.13.25:317][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.13.39:418][647]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.13.40:459][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.13.40:495][698]LogSavePackage: Save=34.07ms
+[2017.06.19-08.13.40:495][698]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP5C209B824ADEFD0ED2984EBAF129A14A.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.13.40:497][698]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.14.10:224][679]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.14.11:462][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.14.11:500][739]LogSavePackage: Save=34.57ms
+[2017.06.19-08.14.11:500][739]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPF74FCDE743FA754774795099941F2482.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.14.11:503][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.15.04:031][896]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FinalExamMap' took 0.020
+[2017.06.19-08.15.04:033][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HeroBP] ([1] browsable assets)...
+[2017.06.19-08.15.04:052][896]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/HeroBP.HeroBP]
+[2017.06.19-08.15.04:052][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/HeroBP]
+[2017.06.19-08.15.04:052][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Saved/Autosaves/Game/HeroBP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.06.19-08.15.04:089][896]LogSavePackage: Save=35.16ms
+[2017.06.19-08.15.04:089][896]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP_Auto124B0D8534D8F60942FDA66A9F5D1AED7.tmp' to '../../../../../../Users/36/Desktop/Final/Saved/Autosaves/Game/HeroBP_Auto1.uasset'
+[2017.06.19-08.15.04:091][896]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Saved/Autosaves/Game/HeroBP_Auto1.uasset
+[2017.06.19-08.15.04:091][896]LogFileHelpers: Auto-saving content packages took 0.059
+[2017.06.19-08.15.41:332][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.15.41:365][ 88]LogSavePackage: Save=30.51ms
+[2017.06.19-08.15.41:365][ 88]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP3E2CDFEF4ABA070F3370E89C7F89DEF4.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.15.41:367][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.15.42:077][173]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.16.44:506][ 42]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.16.45:646][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.16.45:678][121]LogSavePackage: Save=23.18ms
+[2017.06.19-08.16.45:678][121]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP31F782014D207EB3A175CA91AA13D62A.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.16.45:681][121]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.17.15:961][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.17.15:987][165]LogSavePackage: Save=23.27ms
+[2017.06.19-08.17.15:987][165]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP5AE25BCF4105E21AF2FD4A88D9B701B9.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.17.15:990][165]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.17.16:646][242]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.17.59:122][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.17.59:150][358]LogSavePackage: Save=24.29ms
+[2017.06.19-08.17.59:150][358]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBPDF5BB168407D476055D9FC8D1CA2C566.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.17.59:153][358]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.18.21:399][810]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.18.22:120][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.18.22:148][858]LogSavePackage: Save=23.99ms
+[2017.06.19-08.18.22:148][858]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP840351FD4C83C3F152BCB39B6E4944EA.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.18.22:151][858]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.19.37:679][575]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_4.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2017.06.19-08.19.37:726][575]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.Actor_4.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2017.06.19-08.21.37:774][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PunchMontage" FILE="../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset" SILENT=true
+[2017.06.19-08.21.37:789][965]LogSavePackage: Save=13.15ms
+[2017.06.19-08.21.37:789][965]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/PunchMontage499F697E42B83DEB0267149671C2799A.tmp' to '../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset'
+[2017.06.19-08.21.37:791][965]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset
+[2017.06.19-08.22.37:517][871]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.22.38:460][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.22.38:496][966]LogSavePackage: Save=24.68ms
+[2017.06.19-08.22.38:496][966]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBPDF296E9F47100184B43B9EB7D1100C15.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.22.38:499][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.24.28:840][704]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.24.28:957][704]BlueprintEditorCompileResults: 정보  Blend Poses 0  was visible but ignored
+[2017.06.19-08.24.29:829][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.24.29:858][802]LogSavePackage: Save=26.12ms
+[2017.06.19-08.24.29:859][802]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP2D446B9644503A7547230DBF9AE1170F.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.24.29:861][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.24.55:417][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PunchMontage" FILE="../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset" SILENT=true
+[2017.06.19-08.24.55:427][862]LogSavePackage: Save=4.60ms
+[2017.06.19-08.24.55:427][862]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/PunchMontageD87BDA754635AD5D7C85BDA7AE822F46.tmp' to '../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset'
+[2017.06.19-08.24.55:428][862]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset
+[2017.06.19-08.24.56:359][965]LogSavePackage: Save=5.11ms
+[2017.06.19-08.24.56:360][965]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/UE4_Mannequin_Skeleton3DC079E14466065A48F291B5D3927AE4.tmp' to '../../../../../../Users/36/Desktop/Final/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.06.19-08.24.56:362][965]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.06.19-08.24.57:447][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PunchMontage" FILE="../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset" SILENT=true
+[2017.06.19-08.24.57:453][ 93]LogSavePackage: Save=3.93ms
+[2017.06.19-08.24.57:453][ 93]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/PunchMontage57CCAD97442DE50EE5B08D8CD2AF963C.tmp' to '../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset'
+[2017.06.19-08.24.57:454][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset
+[2017.06.19-08.25.33:716][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PunchMontage" FILE="../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset" SILENT=true
+[2017.06.19-08.25.33:732][306]LogSavePackage: Save=11.81ms
+[2017.06.19-08.25.33:732][306]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/PunchMontage6DAF05DB4D63311706076A812361FFAE.tmp' to '../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset'
+[2017.06.19-08.25.33:735][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset
+[2017.06.19-08.25.34:271][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PunchMontage" FILE="../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset" SILENT=true
+[2017.06.19-08.25.34:278][368]LogSavePackage: Save=4.08ms
+[2017.06.19-08.25.34:278][368]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/PunchMontage1A65F9A04D30FD0A18AB2FA4CE339FA7.tmp' to '../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset'
+[2017.06.19-08.25.34:279][368]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/PunchMontage.uasset
+[2017.06.19-08.26.04:417][205]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-08.26.04:440][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-08.26.04:440][205]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 2:26:04)
+[2017.06.19-08.26.04:440][205]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-08.26.04:444][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003450s)
+[2017.06.19-08.26.04:445][205]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-08.26.04:445][205]LogPlayLevel: PIE: World Init took: (0.001344s)
+[2017.06.19-08.26.04:445][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.005195s)
+[2017.06.19-08.26.04:466][205]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-08.26.04:473][205]LogInit: FAudioDevice initialized.
+[2017.06.19-08.26.04:502][205]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-08.26.04:504][205]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-17.26.04
+[2017.06.19-08.26.04:504][205]LogWorld: Bringing up level for play took: 0.001283
+[2017.06.19-08.26.04:506][205]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.439
+[2017.06.19-08.31.01:409][748]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.31.02:919][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.31.02:973][811]LogSavePackage: Save=39.40ms
+[2017.06.19-08.31.02:973][811]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPBE3B43134DD21964331727B85D794ECE.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.31.02:977][811]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.31.35:596][204]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.31.37:715][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.31.37:756][328]LogSavePackage: Save=38.02ms
+[2017.06.19-08.31.37:756][328]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP70D9B91744B2AFCB58A611800C5F34FE.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.31.37:759][328]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.32.36:339][563]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.32.38:065][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.32.38:106][636]LogSavePackage: Save=38.34ms
+[2017.06.19-08.32.38:106][636]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP0B66A16045905284ADCC7485E48B98F7.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.32.38:110][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.33.37:498][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.33.37:542][513]LogSavePackage: Save=39.62ms
+[2017.06.19-08.33.37:542][513]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP4752A11C492FEEA9CBF8A6A286257650.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.33.37:545][513]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.34.00:150][842]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.34.01:658][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.34.01:699][886]LogSavePackage: Save=38.23ms
+[2017.06.19-08.34.01:699][886]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP423646DD4C01354C69E952B987219A84.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.34.01:702][886]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.34.05:210][305]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-08.34.05:231][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-08.34.05:231][305]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 2:34:05)
+[2017.06.19-08.34.05:231][305]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-08.34.05:233][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001812s)
+[2017.06.19-08.34.05:234][305]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-08.34.05:235][305]LogPlayLevel: PIE: World Init took: (0.001525s)
+[2017.06.19-08.34.05:235][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003687s)
+[2017.06.19-08.34.05:255][305]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-08.34.05:263][305]LogInit: FAudioDevice initialized.
+[2017.06.19-08.34.05:294][305]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-08.34.05:297][305]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-17.34.05
+[2017.06.19-08.34.05:297][305]LogWorld: Bringing up level for play took: 0.001415
+[2017.06.19-08.34.05:298][305]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.768
+[2017.06.19-08.34.51:596][392]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.34.52:525][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.34.52:564][459]LogSavePackage: Save=36.70ms
+[2017.06.19-08.34.52:564][459]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP40D8A1DE4CFD86DEF1D012976A2DB12D.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.34.52:567][459]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.36.19:675][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.36.19:720][639]LogSavePackage: Save=36.40ms
+[2017.06.19-08.36.19:720][639]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPF56555B8473D982657A3408A19F5ADBA.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.36.19:723][639]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.38.28:733][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.19-08.39.35:878][771]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.Actor_5.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2017.06.19-08.39.36:030][771]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.Actor_5.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2017.06.19-08.41.01:460][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/GunBlend" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset" SILENT=true
+[2017.06.19-08.41.01:476][786]LogSavePackage: Save=13.59ms
+[2017.06.19-08.41.01:476][786]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBlend13FDD80B404E1C24B3995D875CB84E58.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset'
+[2017.06.19-08.41.01:478][786]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset
+[2017.06.19-08.41.46:548][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/GunBlend" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset" SILENT=true
+[2017.06.19-08.41.46:559][183]LogSavePackage: Save=5.79ms
+[2017.06.19-08.41.46:560][183]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBlend2221B5794D2788606CF3D1BC3A4B7A71.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset'
+[2017.06.19-08.41.46:562][183]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset
+[2017.06.19-08.42.16:162][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/GunBlend" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset" SILENT=true
+[2017.06.19-08.42.16:169][283]LogSavePackage: Save=4.66ms
+[2017.06.19-08.42.16:169][283]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBlendF042B24A48CFEAA2AF5F92BAAFE66FD1.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset'
+[2017.06.19-08.42.16:172][283]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset
+[2017.06.19-08.43.16:605][136]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.43.19:037][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.43.19:083][183]LogSavePackage: Save=37.78ms
+[2017.06.19-08.43.19:083][183]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP194600AB48784A73B71836BBB0D0CD96.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.43.19:087][183]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.43.35:694][ 87]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.43.37:010][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.43.37:062][144]LogSavePackage: Save=49.26ms
+[2017.06.19-08.43.37:062][144]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP618262014CBC4E29D2F3BDBA2F0227B9.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.43.37:064][144]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.43.38:722][341]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-08.43.38:743][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-08.43.38:743][341]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 2:43:38)
+[2017.06.19-08.43.38:743][341]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-08.43.38:744][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001573s)
+[2017.06.19-08.43.38:745][341]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-08.43.38:745][341]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2017.06.19-08.43.38:745][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002421s)
+[2017.06.19-08.43.38:766][341]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-08.43.38:774][341]LogInit: FAudioDevice initialized.
+[2017.06.19-08.43.38:805][341]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-08.43.38:809][341]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-17.43.38
+[2017.06.19-08.43.38:809][341]LogWorld: Bringing up level for play took: 0.001956
+[2017.06.19-08.43.38:813][341]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.747
+[2017.06.19-08.46.31:055][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.46.31:097][176]LogSavePackage: Save=28.69ms
+[2017.06.19-08.46.31:097][176]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBPA822B96C4A8776786D35CFB3669696D3.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.46.31:100][176]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.46.37:881][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.46.37:910][677]LogSavePackage: Save=26.22ms
+[2017.06.19-08.46.37:910][677]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBPCB0A2266443FA01ACF6722AE0614007B.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.46.37:914][677]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.46.51:068][942]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.46.51:178][942]BlueprintEditorCompileResults: 정보  Blend Poses 0  was visible but ignored
+[2017.06.19-08.46.52:697][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.46.52:726][ 13]LogSavePackage: Save=25.52ms
+[2017.06.19-08.46.52:726][ 13]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBPF35A7BDA4CAC41254344E29D36B0CF55.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.46.52:729][ 13]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.48.15:183][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/GunBlend" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset" SILENT=true
+[2017.06.19-08.48.15:195][789]LogSavePackage: Save=5.06ms
+[2017.06.19-08.48.15:195][789]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBlend79B24F8B46E2B0222761BF81AC9D6D2B.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset'
+[2017.06.19-08.48.15:196][789]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset
+[2017.06.19-08.48.29:790][273]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.48.29:908][273]BlueprintEditorCompileResults: 정보  Blend Poses 0  was visible but ignored
+[2017.06.19-08.48.30:775][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.48.30:808][350]LogSavePackage: Save=28.95ms
+[2017.06.19-08.48.30:808][350]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP9C846C1A4FE47BAE946F58A8E6585156.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.48.30:811][350]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.48.45:338][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/GunBlend" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset" SILENT=true
+[2017.06.19-08.48.45:354][ 35]LogSavePackage: Save=13.24ms
+[2017.06.19-08.48.45:354][ 35]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBlend97A728024A900A46016BA79A2D5B8283.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset'
+[2017.06.19-08.48.45:357][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset
+[2017.06.19-08.50.15:900][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.50.15:935][681]LogSavePackage: Save=31.52ms
+[2017.06.19-08.50.15:935][681]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP45EB82E04B506BF18C8EC7A76140D428.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.50.15:938][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.50.16:667][766]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.50.16:681][766]LogBlueprint:Warning: [Compiler AnimationBP] 경고  IDLEWALKANDRUN -> HeroLocomotion  will never be taken, please connect something to  Can Enter Transition
+[2017.06.19-08.50.16:681][766]LogBlueprint:Warning: [Compiler AnimationBP] 경고  HeroLocomotion -> IDLEWALKANDRUN  will never be taken, please connect something to  Can Enter Transition
+[2017.06.19-08.50.16:783][766]BlueprintEditorCompileResults: 정보  Blend Poses 0  was visible but ignored
+[2017.06.19-08.50.16:783][766]BlueprintEditorCompileResults:Warning: 경고  IDLEWALKANDRUN -> HeroLocomotion  will never be taken, please connect something to  Can Enter Transition
+[2017.06.19-08.50.16:783][766]BlueprintEditorCompileResults:Warning: 경고  HeroLocomotion -> IDLEWALKANDRUN  will never be taken, please connect something to  Can Enter Transition
+[2017.06.19-08.50.16:783][766]LogBlueprint:Warning: [Compiler AnimationBP] 경고 [5299.97] AnimationBP 컴파일에 성공했습니다만, 경고가 2 회 있습니다. [소요시간 116 ms] (/Game/Animation/AnimationBP.AnimationBP)
+[2017.06.19-08.50.36:759][773]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.50.36:773][773]LogBlueprint:Warning: [Compiler AnimationBP] 경고  HeroLocomotion -> IDLEWALKANDRUN  will never be taken, please connect something to  Can Enter Transition
+[2017.06.19-08.50.36:877][773]BlueprintEditorCompileResults: 정보  Blend Poses 0  was visible but ignored
+[2017.06.19-08.50.36:877][773]BlueprintEditorCompileResults:Warning: 경고  HeroLocomotion -> IDLEWALKANDRUN  will never be taken, please connect something to  Can Enter Transition
+[2017.06.19-08.50.36:877][773]LogBlueprint:Warning: [Compiler AnimationBP] 경고 [5320.06] AnimationBP 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 118 ms] (/Game/Animation/AnimationBP.AnimationBP)
+[2017.06.19-08.50.38:038][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.50.38:071][857]LogSavePackage: Save=30.43ms
+[2017.06.19-08.50.38:071][857]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBPF9010B3142DD6FF80587BC92D96423C6.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.50.38:074][857]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.51.18:739][271]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.51.18:858][271]BlueprintEditorCompileResults: 정보  Blend Poses 0  was visible but ignored
+[2017.06.19-08.51.20:270][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.51.20:304][365]LogSavePackage: Save=31.65ms
+[2017.06.19-08.51.20:304][365]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBPC510FF284B7C57C61E1C69A4B54F6EA9.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.51.20:307][365]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.51.38:191][838]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.51.39:661][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.51.39:707][892]LogSavePackage: Save=39.34ms
+[2017.06.19-08.51.39:707][892]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP220D3F684815B028E982F4927807F285.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.51.39:710][892]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.51.41:552][111]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-08.51.41:574][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-08.51.41:574][111]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 2:51:41)
+[2017.06.19-08.51.41:574][111]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-08.51.41:576][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001774s)
+[2017.06.19-08.51.41:577][111]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-08.51.41:577][111]LogPlayLevel: PIE: World Init took: (0.001161s)
+[2017.06.19-08.51.41:578][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003210s)
+[2017.06.19-08.51.41:599][111]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-08.51.41:607][111]LogInit: FAudioDevice initialized.
+[2017.06.19-08.51.41:638][111]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-08.51.41:640][111]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-17.51.41
+[2017.06.19-08.51.41:640][111]LogWorld: Bringing up level for play took: 0.000958
+[2017.06.19-08.51.41:642][111]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.425
+[2017.06.19-08.52.44:164][ 91]BlueprintLog: New page: GunBP 컴파일
+[2017.06.19-08.52.44:927][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset" SILENT=true
+[2017.06.19-08.52.44:957][152]LogSavePackage: Save=21.54ms
+[2017.06.19-08.52.44:957][152]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBP13E7E9F94864E2C48ABD669D8599A1C8.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset'
+[2017.06.19-08.52.44:960][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset
+[2017.06.19-08.53.24:058][ 12]BlueprintLog: New page: GunBP 컴파일
+[2017.06.19-08.53.24:657][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset" SILENT=true
+[2017.06.19-08.53.24:681][ 59]LogSavePackage: Save=21.32ms
+[2017.06.19-08.53.24:681][ 59]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBPDC76D6974BC88DA502F483A4065BA52C.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset'
+[2017.06.19-08.53.24:684][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset
+[2017.06.19-08.53.26:566][284]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-08.53.26:587][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-08.53.26:587][284]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 2:53:26)
+[2017.06.19-08.53.26:587][284]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-08.53.26:589][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001934s)
+[2017.06.19-08.53.26:590][284]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-08.53.26:591][284]LogPlayLevel: PIE: World Init took: (0.001169s)
+[2017.06.19-08.53.26:591][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003355s)
+[2017.06.19-08.53.26:611][284]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-08.53.26:619][284]LogInit: FAudioDevice initialized.
+[2017.06.19-08.53.26:650][284]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-08.53.26:652][284]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-17.53.26
+[2017.06.19-08.53.26:652][284]LogWorld: Bringing up level for play took: 0.001506
+[2017.06.19-08.53.26:654][284]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.588
+[2017.06.19-08.54.10:498][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.54.10:539][507]LogSavePackage: Save=38.06ms
+[2017.06.19-08.54.10:540][507]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP6DB9D719406260FCE0F81D92A1256AFB.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.54.10:542][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.55.10:519][802]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-08.55.12:260][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-08.55.12:305][866]LogSavePackage: Save=41.98ms
+[2017.06.19-08.55.12:305][866]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP9668704D4A6D225F9ACE75A6F7374E22.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-08.55.12:308][866]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-08.55.12:322][866]LogSavePackage: Save=4.62ms
+[2017.06.19-08.55.12:322][866]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/UE4_Mannequin_SkeletonF53C3D6240978EA49B235DBC15D60E51.tmp' to '../../../../../../Users/36/Desktop/Final/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.06.19-08.55.12:324][866]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.06.19-08.55.14:432][116]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-08.55.14:453][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-08.55.14:453][116]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 2:55:14)
+[2017.06.19-08.55.14:453][116]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-08.55.14:455][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001845s)
+[2017.06.19-08.55.14:456][116]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-08.55.14:456][116]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2017.06.19-08.55.14:456][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002843s)
+[2017.06.19-08.55.14:478][116]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-08.55.14:486][116]LogInit: FAudioDevice initialized.
+[2017.06.19-08.55.14:513][116]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-08.55.14:515][116]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-17.55.14
+[2017.06.19-08.55.14:516][116]LogWorld: Bringing up level for play took: 0.001133
+[2017.06.19-08.55.14:517][116]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.451
+[2017.06.19-08.55.51:469][238]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-08.55.51:491][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-08.55.51:491][238]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 2:55:51)
+[2017.06.19-08.55.51:491][238]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-08.55.51:492][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001563s)
+[2017.06.19-08.55.51:493][238]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-08.55.51:494][238]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2017.06.19-08.55.51:494][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002859s)
+[2017.06.19-08.55.51:514][238]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-08.55.51:521][238]LogInit: FAudioDevice initialized.
+[2017.06.19-08.55.51:548][238]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-08.55.51:551][238]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-17.55.51
+[2017.06.19-08.55.51:551][238]LogWorld: Bringing up level for play took: 0.001578
+[2017.06.19-08.55.51:553][238]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.514
+[2017.06.19-08.56.13:834][173]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.19-08.56.18:086][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.56.18:131][445]LogSavePackage: Save=31.79ms
+[2017.06.19-08.56.18:131][445]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP47A78BC9471BAE68D3D51AA3CBA69FE0.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.56.18:133][445]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.56.29:841][279]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.19-08.57.04:380][570]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-08.57.04:405][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-08.57.04:405][570]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 2:57:04)
+[2017.06.19-08.57.04:405][570]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-08.57.04:407][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002059s)
+[2017.06.19-08.57.04:408][570]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-08.57.04:408][570]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2017.06.19-08.57.04:408][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003309s)
+[2017.06.19-08.57.04:429][570]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-08.57.04:435][570]LogInit: FAudioDevice initialized.
+[2017.06.19-08.57.04:466][570]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-08.57.04:470][570]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-17.57.04
+[2017.06.19-08.57.04:471][570]LogWorld: Bringing up level for play took: 0.002000
+[2017.06.19-08.57.04:473][570]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.406
+[2017.06.19-08.57.26:393][784]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.57.26:514][784]BlueprintEditorCompileResults: 정보  Blend Poses 0  was visible but ignored
+[2017.06.19-08.57.27:142][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.57.27:178][841]LogSavePackage: Save=31.57ms
+[2017.06.19-08.57.27:178][841]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBPFACC8E1E424232C0B5D0769F44F235A5.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.57.27:181][841]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.57.27:908][927]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-08.57.27:928][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-08.57.27:928][927]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 2:57:27)
+[2017.06.19-08.57.27:928][927]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-08.57.27:930][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001437s)
+[2017.06.19-08.57.27:930][927]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-08.57.27:931][927]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2017.06.19-08.57.27:931][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002762s)
+[2017.06.19-08.57.27:951][927]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-08.57.27:958][927]LogInit: FAudioDevice initialized.
+[2017.06.19-08.57.27:997][927]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-08.57.27:999][927]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-17.57.27
+[2017.06.19-08.57.28:000][927]LogWorld: Bringing up level for play took: 0.001154
+[2017.06.19-08.57.28:003][927]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.064
+[2017.06.19-08.57.28:017][927]LogRenderer: Reallocating scene render targets to support 1292x868 NumSamples 1 (Frame:621651).
+[2017.06.19-08.57.55:402][692]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-08.57.56:091][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-08.57.56:150][751]LogSavePackage: Save=55.44ms
+[2017.06.19-08.57.56:150][751]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBPF86D6D7C4AC65555A5D702ADF1809D94.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-08.57.56:155][751]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-08.57.58:717][998]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-08.57.58:737][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-08.57.58:737][998]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 2:57:58)
+[2017.06.19-08.57.58:737][998]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-08.57.58:739][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001572s)
+[2017.06.19-08.57.58:740][998]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-08.57.58:740][998]LogPlayLevel: PIE: World Init took: (0.001118s)
+[2017.06.19-08.57.58:740][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003001s)
+[2017.06.19-08.57.58:761][998]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-08.57.58:767][998]LogInit: FAudioDevice initialized.
+[2017.06.19-08.57.58:796][998]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-08.57.58:799][998]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-17.57.58
+[2017.06.19-08.57.58:799][998]LogWorld: Bringing up level for play took: 0.001454
+[2017.06.19-08.57.58:800][998]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.734
+[2017.06.19-08.59.56:561][378]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FinalExamMap' took 0.027
+[2017.06.19-08.59.56:563][378]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/AnimationBP] ([1] browsable assets)...
+[2017.06.19-08.59.56:563][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/AnimationBP]
+[2017.06.19-08.59.56:563][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Saved/Autosaves/Game/Animation/AnimationBP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.19-08.59.56:591][378]LogSavePackage: Save=25.50ms
+[2017.06.19-08.59.56:591][378]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP_Auto26D72C05F471A76A2CA5740B086871708.tmp' to '../../../../../../Users/36/Desktop/Final/Saved/Autosaves/Game/Animation/AnimationBP_Auto2.uasset'
+[2017.06.19-08.59.56:606][378]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Saved/Autosaves/Game/Animation/AnimationBP_Auto2.uasset
+[2017.06.19-08.59.56:606][378]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animation/GunBlend] ([1] browsable assets)...
+[2017.06.19-08.59.56:627][378]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/Animation/GunBlend.GunBlend]
+[2017.06.19-08.59.56:627][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/GunBlend]
+[2017.06.19-08.59.56:627][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/GunBlend" FILE="../../../../../../Users/36/Desktop/Final/Saved/Autosaves/Game/Animation/GunBlend_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.19-08.59.56:645][378]LogSavePackage: Save=12.29ms
+[2017.06.19-08.59.56:645][378]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBlend_Auto29FD02E6044527F20E1A9949D854BA264.tmp' to '../../../../../../Users/36/Desktop/Final/Saved/Autosaves/Game/Animation/GunBlend_Auto2.uasset'
+[2017.06.19-08.59.56:646][378]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Saved/Autosaves/Game/Animation/GunBlend_Auto2.uasset
+[2017.06.19-08.59.56:646][378]LogFileHelpers: Auto-saving content packages took 0.084
+[2017.06.19-09.00.39:570][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-09.00.39:597][183]LogSavePackage: Save=24.42ms
+[2017.06.19-09.00.39:597][183]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP9B9AB1DD4CD1D868433B338A5C59465F.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-09.00.39:602][183]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-09.00.39:604][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/GunBlend" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset" SILENT=true
+[2017.06.19-09.00.39:611][183]LogSavePackage: Save=4.15ms
+[2017.06.19-09.00.39:611][183]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBlend11151F4342A71AD109FE7EAF3646D4CA.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset'
+[2017.06.19-09.00.39:614][183]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset
+[2017.06.19-09.01.07:532][324]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
+[2017.06.19-09.01.10:141][324]LogCrashTracker: 
+
+
+[2017.06.19-09.01.10:141][324]LogCrashTracker: 
+
+
+[2017.06.19-09.01.10:141][324]LogWindows:Error: === Critical error: ===
+[2017.06.19-09.01.10:141][324]LogWindows:Error: 
+[2017.06.19-09.01.10:141][324]LogWindows:Error: Fatal error: [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Templates\Casts.cpp] [Line: 10] 
+[2017.06.19-09.01.10:141][324]LogWindows:Error: Cast of nullptr to AnimBlueprint failed
+[2017.06.19-09.01.10:141][324]LogWindows:Error: 
+[2017.06.19-09.01.10:141][324]LogWindows:Error: 
+[2017.06.19-09.01.10:141][324]LogWindows:Error: KERNELBASE.dll!0x000000004DA33C58
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Core.dll!0x000000002A1564DE
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Core.dll!0x0000000029F7CEDE
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Core.dll!0x0000000029F02719
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-CoreUObject.dll!0x000000002A75BF82
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-AnimGraph.dll!0x0000000022606AC8
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-AnimGraph.dll!0x000000002265B1BD
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Kismet.dll!0x000000002309A82E
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Kismet.dll!0x0000000023132415
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000231D68DE
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x00000000262F7175
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x00000000262FDD41
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x000000002648E9CD
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-UnrealEd.dll!0x000000002563D812
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-UnrealEd.dll!0x000000002563C1D6
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000255F3DED
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000255F7464
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x00000000263A9A69
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x00000000263F753E
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x00000000263A94B0
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x0000000026407987
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x00000000264BA371
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x00000000264BA420
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000234E17F3
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000234ABAD9
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Kismet.dll!0x0000000023104135
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000230C9036
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-AnimationBlueprintEditor.dll!0x0000000041BA4809
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Kismet.dll!0x000000002308159C
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Kismet.dll!0x0000000023085FDC
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Engine.dll!0x00000000268E2F5A
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000251AB4E3
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000251BD258
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-AnimGraph.dll!0x00000000226468CD
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Engine.dll!0x0000000027018EE9
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-GraphEditor.dll!0x0000000021249072
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-GraphEditor.dll!0x000000002123C0EF
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x00000000262D3D96
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x00000000262A40A8
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x0000000026345A7A
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x0000000026330B83
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Slate.dll!0x000000002631FB59
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Core.dll!0x000000002A14CE95
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Core.dll!0x000000002A1367B1
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Core.dll!0x000000002A14EA0C
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Core.dll!0x000000002A1326D9
+[2017.06.19-09.01.10:141][324]LogWindows:Error: USER32.dll!0x000000004E081C24
+[2017.06.19-09.01.10:141][324]LogWindows:Error: USER32.dll!0x000000004E08156C
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor-Core.dll!0x000000002A14F316
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor.exe!0x000000002941D790
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor.exe!0x000000002940EB40
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor.exe!0x000000002940EBBA
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor.exe!0x0000000029420A29
+[2017.06.19-09.01.10:141][324]LogWindows:Error: UE4Editor.exe!0x00000000294222B6
+[2017.06.19-09.01.10:141][324]LogWindows:Error: KERNEL32.DLL!0x0000000050098364
+[2017.06.19-09.01.10:141][324]LogWindows:Error: ntdll.dll!0x0000000050B470D1
+[2017.06.19-09.01.10:141][324]LogWindows:Error: ntdll.dll!0x0000000050B470D1
+[2017.06.19-09.01.10:141][324]LogWindows:Error: 
+[2017.06.19-09.01.10:163][324]LogExit: Executing StaticShutdownAfterError
+[2017.06.19-09.01.10:212][324]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.06.19-09.01.10:212][324]Log file closed, 06/19/17 18:01:10

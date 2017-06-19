@@ -1,0 +1,1330 @@
+﻿Log file open, 06/19/17 18:08:56
+LogInit:Display: Running engine for game: Final
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(929906776) SRandInit(929906776).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.071077
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.19-09.08.57:587][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.19-09.08.57:587][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.19-09.08.57:597][  0]LogInit: Computer: DESKTOP-FU2J2BG
+[2017.06.19-09.08.57:597][  0]LogInit: User: 36
+[2017.06.19-09.08.57:597][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.19-09.08.57:597][  0]LogInit: High frequency timer resolution =3.328118 MHz
+[2017.06.19-09.08.57:597][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.06.19-09.08.57:597][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.19-09.08.57:597][  0]LogMemory: Process Physical Memory: 263.41 MB used, 263.41 MB peak
+[2017.06.19-09.08.57:597][  0]LogMemory: Process Virtual Memory: 262.53 MB used, 262.53 MB peak
+[2017.06.19-09.08.57:597][  0]LogMemory: Physical Memory: 2868.38 MB used,  5272.17 MB free, 8140.54 MB total
+[2017.06.19-09.08.57:597][  0]LogMemory: Virtual Memory: 644.18 MB used,  5272.17 MB free, 134217728.00 MB total
+[2017.06.19-09.08.57:660][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.06.19-09.08.57:693][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2017.06.19-09.08.57:693][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2017.06.19-09.08.57:693][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2017.06.19-09.08.57:693][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2017.06.19-09.08.57:938][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.19-09.08.57:972][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2017.06.19-09.08.57:972][  0]LogD3D11RHI:       3035/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.19-09.08.57:973][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.19-09.08.57:973][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.19-09.08.57:973][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.19-09.08.57:975][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.19-09.08.57:975][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.19-09.08.57:975][  0]LogWindows: EnumDisplayDevices:
+[2017.06.19-09.08.57:976][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2017.06.19-09.08.57:976][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.06.19-09.08.57:976][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.06.19-09.08.57:976][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.06.19-09.08.57:976][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.19-09.08.57:976][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2017.06.19-09.08.57:976][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.06.19-09.08.57:976][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.06.19-09.08.57:976][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.19-09.08.57:991][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.19-09.08.58:002][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.19-09.08.58:051][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../Users/36/Desktop/Final/Intermediate/Shaders/WorkingDirectory/6656/).
+[2017.06.19-09.08.58:051][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/36/AppData/Local/Temp/UnrealShaderWorkingDir/57E3314E435560F3C36992AFD36CBCDF/'.
+[2017.06.19-09.08.58:051][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.19-09.08.58:866][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.19-09.08.58:910][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.19-09.08.58:952][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.19-09.08.58:997][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.19-09.08.59:042][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.19-09.08.59:086][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.19-09.08.59:130][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.19-09.08.59:173][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.19-09.08.59:209][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.19-09.08.59:251][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.19-09.08.59:294][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.19-09.08.59:337][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.19-09.08.59:378][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.19-09.08.59:422][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.19-09.08.59:464][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.19-09.08.59:549][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.19-09.08.59:549][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.19-09.08.59:578][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.19-09.08.59:659][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.19-09.08.59:688][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.19-09.08.59:730][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.19-09.08.59:773][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.19-09.08.59:815][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.19-09.08.59:858][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.19-09.08.59:858][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.19-09.09.00:207][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.19-09.09.00:255][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/36/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.19-09.09.00:255][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/36/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.19-09.09.00:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/36/Desktop/Final/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.19-09.09.00:255][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.19-09.09.00:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/36/Desktop/Final/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.19-09.09.00:255][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.19-09.09.00:270][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.19-09.09.00:282][  0]LogDerivedDataCache: Using Local data cache path C:/Users/36/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.19-09.09.00:288][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.19-09.09.00:289][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.19-09.09.00:289][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.19-09.09.00:477][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.19-09.09.00:479][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.19-09.09.00:640][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.19-09.09.00:674][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.19-09.09.00:712][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.19-09.09.00:712][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.19-09.09.00:712][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.19-09.09.01:166][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: final, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 210554964
+[2017.06.19-09.09.01:210][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.06.19-09.09.01:249][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.020936 seconds
+[2017.06.19-09.09.01:254][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.06.19-09.09.01:254][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.06.19-09.09.01:254][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.19-09.09.01:304][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.19-09.09.02:554][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.19-09.09.02:593][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.19-09.09.02:984][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.19-09.09.03:283][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.19-09.09.03:308][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.19-09.09.03:347][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.19-09.09.03:385][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.19-09.09.04:362][  0]LogEngine: Initializing Engine...
+[2017.06.19-09.09.04:363][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.19-09.09.04:542][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.19-09.09.04:549][  0]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.09.04:569][  0]LogInit: FAudioDevice initialized.
+[2017.06.19-09.09.04:595][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/36/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.19-09.09.04:602][  0]LogInit: Texture streaming: Enabled
+[2017.06.19-09.09.04:676][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.19-09.09.04:676][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={FB03670F-44A2-004A-4AB9-B7AC53DE8965}
+[2017.06.19-09.09.04:743][  0]LogInit: Transaction tracking system initialized
+[2017.06.19-09.09.05:007][  0]BlueprintLog: New page: 에디터 로드
+[2017.06.19-09.09.05:685][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.06.19-09.09.06:212][  0]LogConsoleResponse:Display: 
+[2017.06.19-09.09.06:324][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.19-09.09.06:324][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.19-09.09.06:784][  0]LogFileCache: Scanning file cache for directory 'C:/Users/36/Desktop/Final/Content/' took 0.01s
+[2017.06.19-09.09.07:132][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.19-09.09.07:132][  0]Cmd: MAP LOAD FILE="../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.19-09.09.07:133][  0]LightingResults: New page: 라이팅 빌드
+[2017.06.19-09.09.07:165][  0]MapCheck: New page: 맵 체크
+[2017.06.19-09.09.07:165][  0]LightingResults: New page: 라이팅 빌드
+[2017.06.19-09.09.07:351][  0]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.09.07:356][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.19-09.09.07:356][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.19-09.09.07:386][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 30.312ms.
+[2017.06.19-09.09.07:386][  0]LogFileHelpers: Loading map 'FinalExamMap' took 0.254
+[2017.06.19-09.09.07:443][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.19-09.09.07:537][  0]LogCollectionManager: Loaded 0 collections in 0.001758 seconds
+[2017.06.19-09.09.07:607][  0]LogFileCache: Scanning file cache for directory 'C:/Users/36/Desktop/Final/Saved/Collections/' took 0.01s
+[2017.06.19-09.09.07:607][  0]LogFileCache: Scanning file cache for directory 'C:/Users/36/Desktop/Final/Content/Developers/36/Collections/' took 0.01s
+[2017.06.19-09.09.07:607][  0]LogFileCache: Scanning file cache for directory 'C:/Users/36/Desktop/Final/Content/Collections/' took 0.01s
+[2017.06.19-09.09.07:607][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.19-09.09.07:614][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2244 classes and 450 folders.
+[2017.06.19-09.09.07:616][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.19-09.09.07:616][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.19-09.09.07:665][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.19-09.09.07:696][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.19-09.09.07:729][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.19-09.09.07:816][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.19-09.09.07:824][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.06.19-09.09.07:882][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.19-09.09.07:882][  0]LogLoad: (Engine Initialization) Total time: 11.89 seconds
+[2017.06.19-09.09.07:882][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2017.06.19-09.09.07:882][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.19-09.09.07:882][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.19-09.09.07:894][  0]LogOcInput: OculusInput pre-init called
+[2017.06.19-09.09.07:907][  0]LogAssetRegistry: Asset discovery search completed in 6.7199 seconds
+[2017.06.19-09.09.07:908][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.06.19-09.09.07:908][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2017.06.19-09.09.07:912][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.19-09.09.07:919][  0]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.19-09.09.07:924][  0]LogSlate: Took 0.002476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.06.19-09.09.07:925][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.19-09.09.07:929][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.19-09.09.08:026][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.19-09.09.08:083][  0]LogRenderer: Reallocating scene render targets to support 672x540 NumSamples 1 (Frame:2).
+[2017.06.19-09.09.08:914][ 86]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.19-09.09.10:988][310]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.19-09.09.11:356][310]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.06.19-09.09.11:819][310]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.19-09.09.11:894][310]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.19-09.09.12:044][311]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.19-09.09.14:221][530]LogRenderer: Reallocating scene render targets to support 672x668 NumSamples 1 (Frame:565).
+[2017.06.19-09.09.24:095][696]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.09.25:023][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.09.25:067][751]LogSavePackage: Save=40.77ms
+[2017.06.19-09.09.25:067][751]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP7FD1D08C4D434A073E9F2395D3EFC2B3.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.09.25:070][751]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.09.30:285][370]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.09.30:300][370]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.09.30:301][370]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:09:30)
+[2017.06.19-09.09.30:301][370]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.09.30:303][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002003s)
+[2017.06.19-09.09.30:303][370]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.09.30:303][370]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2017.06.19-09.09.30:303][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003037s)
+[2017.06.19-09.09.30:317][370]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.09.30:324][370]LogInit: FAudioDevice initialized.
+[2017.06.19-09.09.30:381][370]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.09.30:384][370]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.09.30
+[2017.06.19-09.09.30:384][370]LogWorld: Bringing up level for play took: 0.000817
+[2017.06.19-09.09.30:416][370]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.06.19-09.09.30:418][370]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.351
+[2017.06.19-09.09.51:846][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.06.19-09.09.51:870][844]LogSavePackage: Save=16.57ms
+[2017.06.19-09.09.51:870][844]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/BulletBP1559574544B8404A6E9DCBB96058218C.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset'
+[2017.06.19-09.09.51:872][844]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/BulletBP.uasset
+[2017.06.19-09.09.52:848][961]BlueprintLog: New page: BulletBP 컴파일
+[2017.06.19-09.09.57:923][544]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.09.57:937][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.09.57:937][544]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:09:57)
+[2017.06.19-09.09.57:937][544]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.09.57:939][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001702s)
+[2017.06.19-09.09.57:940][544]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.09.57:940][544]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2017.06.19-09.09.57:940][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002738s)
+[2017.06.19-09.09.57:956][544]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.09.57:962][544]LogInit: FAudioDevice initialized.
+[2017.06.19-09.09.57:989][544]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.09.57:992][544]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.09.57
+[2017.06.19-09.09.57:992][544]LogWorld: Bringing up level for play took: 0.000961
+[2017.06.19-09.09.57:993][544]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.073
+[2017.06.19-09.10.11:115][ 16]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.19-09.10.11:229][ 16]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.06.19-09.10.11:324][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.06.19-09.10.35:160][830]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-09.10.35:959][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-09.10.35:998][908]LogSavePackage: Save=29.75ms
+[2017.06.19-09.10.35:998][908]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP6E9B8775447050921508E38F120A3E57.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-09.10.36:002][908]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-09.10.41:284][540]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.10.41:300][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.10.41:300][540]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:10:41)
+[2017.06.19-09.10.41:300][540]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.10.41:302][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002080s)
+[2017.06.19-09.10.41:303][540]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.10.41:303][540]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2017.06.19-09.10.41:304][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003206s)
+[2017.06.19-09.10.41:318][540]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.10.41:324][540]LogInit: FAudioDevice initialized.
+[2017.06.19-09.10.41:357][540]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.10.41:360][540]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.10.41
+[2017.06.19-09.10.41:360][540]LogWorld: Bringing up level for play took: 0.001020
+[2017.06.19-09.10.41:362][540]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.705
+[2017.06.19-09.11.27:226][950]BlueprintLog: New page: GunBP 컴파일
+[2017.06.19-09.11.27:856][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset" SILENT=true
+[2017.06.19-09.11.27:886][  3]LogSavePackage: Save=21.59ms
+[2017.06.19-09.11.27:886][  3]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBP44049E2D4D745AF80A06B490F88E3E46.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset'
+[2017.06.19-09.11.27:889][  3]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset
+[2017.06.19-09.11.29:429][183]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.11.29:446][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.11.29:446][183]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:11:29)
+[2017.06.19-09.11.29:446][183]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.11.29:448][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001591s)
+[2017.06.19-09.11.29:449][183]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.11.29:449][183]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2017.06.19-09.11.29:449][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002859s)
+[2017.06.19-09.11.29:465][183]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.11.29:471][183]LogInit: FAudioDevice initialized.
+[2017.06.19-09.11.29:502][183]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.11.29:504][183]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.11.29
+[2017.06.19-09.11.29:504][183]LogWorld: Bringing up level for play took: 0.000922
+[2017.06.19-09.11.29:506][183]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.561
+[2017.06.19-09.11.58:787][645]BlueprintLog: New page: GunBP 컴파일
+[2017.06.19-09.11.59:349][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset" SILENT=true
+[2017.06.19-09.11.59:373][692]LogSavePackage: Save=20.73ms
+[2017.06.19-09.11.59:373][692]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBPA38C91A04823E39242C392B81F72E67D.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset'
+[2017.06.19-09.11.59:376][692]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Gun/GunBP.uasset
+[2017.06.19-09.12.00:831][865]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.12.00:848][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.12.00:849][865]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:12:00)
+[2017.06.19-09.12.00:849][865]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.12.00:850][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001473s)
+[2017.06.19-09.12.00:851][865]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.12.00:851][865]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2017.06.19-09.12.00:851][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002646s)
+[2017.06.19-09.12.00:867][865]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.12.00:873][865]LogInit: FAudioDevice initialized.
+[2017.06.19-09.12.00:901][865]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.12.00:902][865]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.12.00
+[2017.06.19-09.12.00:903][865]LogWorld: Bringing up level for play took: 0.000939
+[2017.06.19-09.12.00:904][865]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.838
+[2017.06.19-09.12.23:284][494]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.06.19-09.12.23:313][494]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.06.19-09.12.23:433][495]LogRenderer: Reallocating scene render targets to support 760x668 NumSamples 1 (Frame:26323).
+[2017.06.19-09.12.47:379][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/GunBlend" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset" SILENT=true
+[2017.06.19-09.12.47:398][354]LogSavePackage: Save=11.75ms
+[2017.06.19-09.12.47:398][354]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunBlend727F6C41488D1204B7A836BF881841A4.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset'
+[2017.06.19-09.12.47:401][354]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/GunBlend.uasset
+[2017.06.19-09.12.49:095][557]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.12.49:113][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.12.49:113][557]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:12:49)
+[2017.06.19-09.12.49:113][557]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.12.49:115][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001823s)
+[2017.06.19-09.12.49:115][557]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.12.49:115][557]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2017.06.19-09.12.49:116][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002859s)
+[2017.06.19-09.12.49:132][557]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.12.49:139][557]LogInit: FAudioDevice initialized.
+[2017.06.19-09.12.49:171][557]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.12.49:173][557]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.12.49
+[2017.06.19-09.12.49:173][557]LogWorld: Bringing up level for play took: 0.001063
+[2017.06.19-09.12.49:175][557]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.892
+[2017.06.19-09.13.34:295][909]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-09.13.35:049][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-09.13.35:084][980]LogSavePackage: Save=31.56ms
+[2017.06.19-09.13.35:085][980]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBPCDB89C8C42E4A9B08BDDE7A56F518107.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-09.13.35:087][980]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-09.13.59:474][878]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-09.14.00:203][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-09.14.00:240][943]LogSavePackage: Save=34.39ms
+[2017.06.19-09.14.00:240][943]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP312836C14FDA44843C183CAF70D94D53.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-09.14.00:244][943]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-09.14.58:279][815]BlueprintLog: New page: AnimationBP 컴파일
+[2017.06.19-09.14.59:089][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/AnimationBP" FILE="../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset" SILENT=true
+[2017.06.19-09.14.59:126][891]LogSavePackage: Save=34.27ms
+[2017.06.19-09.14.59:126][891]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/AnimationBP379D5D9E4B0D70EA36D5FA9871CC8FE3.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset'
+[2017.06.19-09.14.59:129][891]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Animation/AnimationBP.uasset
+[2017.06.19-09.15.00:574][ 60]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.15.00:590][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.15.00:590][ 60]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:15:00)
+[2017.06.19-09.15.00:591][ 60]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.15.00:592][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001867s)
+[2017.06.19-09.15.00:593][ 60]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.15.00:593][ 60]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2017.06.19-09.15.00:594][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003131s)
+[2017.06.19-09.15.00:610][ 60]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.15.00:617][ 60]LogInit: FAudioDevice initialized.
+[2017.06.19-09.15.00:648][ 60]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.15.00:651][ 60]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.15.00
+[2017.06.19-09.15.00:651][ 60]LogWorld: Bringing up level for play took: 0.001010
+[2017.06.19-09.15.00:653][ 60]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.586
+[2017.06.19-09.18.27:361][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.18.27:420][838]LogSavePackage: Save=50.10ms
+[2017.06.19-09.18.27:420][838]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP5A767EDE4F9BEBE16B5CA896CE670B03.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.18.27:423][838]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.18.29:303][ 60]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.18.30:016][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.18.30:061][114]LogSavePackage: Save=41.78ms
+[2017.06.19-09.18.30:061][114]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP254490BD458573CD444B2A83DFFF156C.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.18.30:065][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.18.31:889][329]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.18.31:907][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.18.31:907][329]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:18:31)
+[2017.06.19-09.18.31:907][329]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.18.31:909][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002007s)
+[2017.06.19-09.18.31:910][329]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.18.31:911][329]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2017.06.19-09.18.31:911][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003553s)
+[2017.06.19-09.18.31:930][329]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.18.31:937][329]LogInit: FAudioDevice initialized.
+[2017.06.19-09.18.31:969][329]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.18.31:971][329]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.18.31
+[2017.06.19-09.18.31:972][329]LogWorld: Bringing up level for play took: 0.001157
+[2017.06.19-09.18.31:974][329]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.093
+[2017.06.19-09.21.27:663][704]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.21.28:445][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.21.28:490][765]LogSavePackage: Save=42.46ms
+[2017.06.19-09.21.28:490][765]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP21BE07BC47DF5767B672A79D4C8558E4.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.21.28:494][765]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.22.32:454][944]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.22.33:090][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.22.33:136][990]LogSavePackage: Save=42.14ms
+[2017.06.19-09.22.33:136][990]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP5EDA649441C5976B2ECE4CBC79FCA893.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.22.33:139][990]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.22.45:837][506]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.22.45:857][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.22.45:857][506]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:22:45)
+[2017.06.19-09.22.45:857][506]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.22.45:859][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001725s)
+[2017.06.19-09.22.45:859][506]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.22.45:860][506]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2017.06.19-09.22.45:860][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003037s)
+[2017.06.19-09.22.45:878][506]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.22.45:885][506]LogInit: FAudioDevice initialized.
+[2017.06.19-09.22.45:912][506]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.22.45:914][506]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.22.45
+[2017.06.19-09.22.45:914][506]LogWorld: Bringing up level for play took: 0.000942
+[2017.06.19-09.22.45:916][506]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.151
+[2017.06.19-09.23.20:992][664]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.23.21:642][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.23.21:686][711]LogSavePackage: Save=40.18ms
+[2017.06.19-09.23.21:686][711]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP0ECBF6D84D590F56ED4FD28DA4DE937C.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.23.21:689][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.23.58:231][857]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.23.58:829][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.23.58:879][896]LogSavePackage: Save=42.71ms
+[2017.06.19-09.23.58:879][896]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP509FBCCA4476E9E1A70683BD056F5D48.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.23.58:882][896]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.24.00:454][ 80]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.24.00:473][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.24.00:473][ 80]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:24:00)
+[2017.06.19-09.24.00:473][ 80]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.24.00:475][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001913s)
+[2017.06.19-09.24.00:475][ 80]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.24.00:476][ 80]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2017.06.19-09.24.00:476][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003017s)
+[2017.06.19-09.24.00:492][ 80]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.24.00:499][ 80]LogInit: FAudioDevice initialized.
+[2017.06.19-09.24.00:532][ 80]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.24.00:535][ 80]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.24.00
+[2017.06.19-09.24.00:535][ 80]LogWorld: Bringing up level for play took: 0.001273
+[2017.06.19-09.24.00:537][ 80]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.47
+[2017.06.19-09.24.06:011][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FinalExamMap" FILE="../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.19-09.24.06:066][732]LogSavePackage: Save=30.69ms
+[2017.06.19-09.24.06:066][732]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/FinalExamMapE1AC36F34C8038A7E70BB5AA5A6122E1.tmp' to '../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap'
+[2017.06.19-09.24.06:068][732]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap
+[2017.06.19-09.24.07:264][866]Cmd: SELECT NONE
+[2017.06.19-09.24.42:394][888]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.19-09.24.46:373][351]SourceControl: 정보 On branch master
+[2017.06.19-09.24.46:373][351]SourceControl: 정보 Changes not staged for commit:
+[2017.06.19-09.24.46:373][351]SourceControl: 정보   (use "git add <file>..." to update what will be committed)
+[2017.06.19-09.24.46:373][351]SourceControl: 정보   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.06.19-09.24.46:373][351]SourceControl: 정보 	modified:   Content/Animation/AnimationBP.uasset
+[2017.06.19-09.24.46:373][351]SourceControl: 정보 	modified:   Content/FinalExamMap.umap
+[2017.06.19-09.24.46:373][351]SourceControl: 정보 	modified:   Content/Gun/BulletBP.uasset
+[2017.06.19-09.24.46:373][351]SourceControl: 정보 	modified:   Content/Gun/GunBP.uasset
+[2017.06.19-09.24.46:373][351]SourceControl: 정보 	modified:   Content/HeroBP.uasset
+[2017.06.19-09.24.46:373][351]SourceControl: 정보 	modified:   Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.06.19-09.24.46:373][351]SourceControl: 정보 Untracked files:
+[2017.06.19-09.24.46:373][351]SourceControl: 정보   (use "git add <file>..." to include in what will be committed)
+[2017.06.19-09.24.46:373][351]SourceControl: 정보 	Content/Animation/GunBlend.uasset
+[2017.06.19-09.24.46:373][351]SourceControl: 정보 	Content/PunchMontage.uasset
+[2017.06.19-09.24.46:373][351]SourceControl: 정보 no changes added to commit (use "git add" and/or "git commit -a")
+[2017.06.19-09.27.24:227][130]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.27.24:972][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.27.25:015][183]LogSavePackage: Save=39.71ms
+[2017.06.19-09.27.25:015][183]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP6F41FB824E99B15F76B703BFFDC067FD.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.27.25:018][183]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.27.26:360][343]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.27.26:381][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.27.26:381][343]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:27:26)
+[2017.06.19-09.27.26:381][343]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.27.26:383][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001664s)
+[2017.06.19-09.27.26:384][343]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.27.26:384][343]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2017.06.19-09.27.26:385][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003095s)
+[2017.06.19-09.27.26:402][343]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.27.26:410][343]LogInit: FAudioDevice initialized.
+[2017.06.19-09.27.26:440][343]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.27.26:442][343]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.27.26
+[2017.06.19-09.27.26:442][343]LogWorld: Bringing up level for play took: 0.001014
+[2017.06.19-09.27.26:444][343]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.377
+[2017.06.19-09.27.54:499][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.27.54:536][668]LogSavePackage: Save=33.64ms
+[2017.06.19-09.27.54:536][668]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP63B348A8464E2471983A99BEBF93355C.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.27.54:539][668]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.30.16:209][620]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.30.17:182][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.30.17:231][661]LogSavePackage: Save=40.41ms
+[2017.06.19-09.30.17:231][661]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP2B66AFEF45B890867FB48E91E086D5F9.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.30.17:236][661]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.31.03:997][330]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.31.04:017][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.31.04:017][330]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:31:04)
+[2017.06.19-09.31.04:017][330]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.31.04:019][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001858s)
+[2017.06.19-09.31.04:020][330]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.31.04:020][330]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2017.06.19-09.31.04:020][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003212s)
+[2017.06.19-09.31.04:036][330]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.31.04:044][330]LogInit: FAudioDevice initialized.
+[2017.06.19-09.31.04:071][330]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.31.04:074][330]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.31.04
+[2017.06.19-09.31.04:074][330]LogWorld: Bringing up level for play took: 0.000975
+[2017.06.19-09.31.04:076][330]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.009
+[2017.06.19-09.31.13:304][419]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.31.16:167][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.31.16:213][567]LogSavePackage: Save=41.51ms
+[2017.06.19-09.31.16:213][567]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP32F78C2046CC58A24C6C83A01F0A0F25.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.31.16:215][567]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.31.17:541][724]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.31.17:559][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.31.17:559][724]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:31:17)
+[2017.06.19-09.31.17:559][724]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.31.17:560][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001472s)
+[2017.06.19-09.31.17:561][724]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.31.17:561][724]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2017.06.19-09.31.17:561][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002465s)
+[2017.06.19-09.31.17:577][724]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.31.17:584][724]LogInit: FAudioDevice initialized.
+[2017.06.19-09.31.17:616][724]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.31.17:619][724]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.31.17
+[2017.06.19-09.31.17:619][724]LogWorld: Bringing up level for play took: 0.000995
+[2017.06.19-09.31.17:621][724]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.446
+[2017.06.19-09.31.26:761][768]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.31.27:740][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.31.27:785][825]LogSavePackage: Save=40.86ms
+[2017.06.19-09.31.27:785][825]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPFC4A301C4E2DF7509AC13BB8EB303587.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.31.27:788][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.31.44:701][721]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.31.44:720][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.31.44:720][721]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:31:44)
+[2017.06.19-09.31.44:720][721]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.31.44:722][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001549s)
+[2017.06.19-09.31.44:723][721]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.31.44:723][721]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2017.06.19-09.31.44:723][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002641s)
+[2017.06.19-09.31.44:739][721]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.31.44:745][721]LogInit: FAudioDevice initialized.
+[2017.06.19-09.31.44:773][721]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.31.44:775][721]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.31.44
+[2017.06.19-09.31.44:775][721]LogWorld: Bringing up level for play took: 0.001007
+[2017.06.19-09.31.44:776][721]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.71
+[2017.06.19-09.32.11:677][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.32.11:715][869]LogSavePackage: Save=34.44ms
+[2017.06.19-09.32.11:715][869]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP825E5D7D4E84F5A67F580E98E9DFFF1A.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.32.11:718][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.32.24:022][280]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.32.25:127][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.32.25:171][352]LogSavePackage: Save=41.34ms
+[2017.06.19-09.32.25:171][352]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPF0E521E244E955D5620A91913DF8E62D.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.32.25:174][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.32.29:110][808]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.32.30:229][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.32.30:273][882]LogSavePackage: Save=40.33ms
+[2017.06.19-09.32.30:273][882]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP9F3C495E4164C4EBE3FF4D97C7EAA676.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.32.30:276][882]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.33.35:858][464]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.33.36:665][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.33.36:711][494]LogSavePackage: Save=41.83ms
+[2017.06.19-09.33.36:711][494]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP7E80411949C57B75526F018055DCBA4D.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.33.36:714][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.34.10:754][424]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.34.11:535][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.34.11:580][479]LogSavePackage: Save=40.59ms
+[2017.06.19-09.34.11:580][479]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPA9AFB42C4259CFFA1A18EEAF65606068.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.34.11:583][479]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.34.13:172][666]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.34.13:191][666]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.34.13:191][666]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:34:13)
+[2017.06.19-09.34.13:191][666]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.34.13:193][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001874s)
+[2017.06.19-09.34.13:194][666]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.34.13:194][666]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2017.06.19-09.34.13:195][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003405s)
+[2017.06.19-09.34.13:211][666]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.34.13:218][666]LogInit: FAudioDevice initialized.
+[2017.06.19-09.34.13:250][666]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.34.13:252][666]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.34.13
+[2017.06.19-09.34.13:252][666]LogWorld: Bringing up level for play took: 0.000991
+[2017.06.19-09.34.13:255][666]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.812
+[2017.06.19-09.34.42:269][ 60]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.34.43:018][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.34.43:062][111]LogSavePackage: Save=40.45ms
+[2017.06.19-09.34.43:062][111]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPCA88A84C4311733ACABF4185526A48FC.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.34.43:065][111]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.34.47:297][598]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.34.48:351][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.34.48:395][651]LogSavePackage: Save=40.41ms
+[2017.06.19-09.34.48:395][651]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP43E266B64971F271CD80898FFF0C7060.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.34.48:398][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.34.59:455][877]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.35.00:142][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.35.00:186][918]LogSavePackage: Save=40.47ms
+[2017.06.19-09.35.00:186][918]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP43722D4D4152F4C31D47A7A2DD8DF199.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.35.00:189][918]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.35.02:626][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.35.02:670][190]LogSavePackage: Save=41.05ms
+[2017.06.19-09.35.02:670][190]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP0BB6CB5F40594A0308FD509C291A015F.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.35.02:673][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.35.03:253][259]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.35.05:994][553]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.35.06:013][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.35.06:013][553]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:35:06)
+[2017.06.19-09.35.06:013][553]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.35.06:015][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002046s)
+[2017.06.19-09.35.06:016][553]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.35.06:016][553]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2017.06.19-09.35.06:016][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003177s)
+[2017.06.19-09.35.06:032][553]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.35.06:039][553]LogInit: FAudioDevice initialized.
+[2017.06.19-09.35.06:072][553]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.35.06:074][553]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.35.06
+[2017.06.19-09.35.06:074][553]LogWorld: Bringing up level for play took: 0.001123
+[2017.06.19-09.35.06:076][553]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.009
+[2017.06.19-09.35.24:731][726]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.35.25:652][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.35.25:700][772]LogSavePackage: Save=40.95ms
+[2017.06.19-09.35.25:700][772]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP5DF2A15040F529400B213FA933815DD7.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.35.25:710][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.35.27:496][974]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.35.27:516][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.35.27:516][974]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:35:27)
+[2017.06.19-09.35.27:516][974]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.35.27:517][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001406s)
+[2017.06.19-09.35.27:518][974]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.35.27:518][974]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2017.06.19-09.35.27:518][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002620s)
+[2017.06.19-09.35.27:533][974]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.35.27:540][974]LogInit: FAudioDevice initialized.
+[2017.06.19-09.35.27:573][974]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.35.27:575][974]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.35.27
+[2017.06.19-09.35.27:575][974]LogWorld: Bringing up level for play took: 0.000986
+[2017.06.19-09.35.27:577][974]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.491
+[2017.06.19-09.36.00:484][893]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.36.01:103][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.36.01:148][929]LogSavePackage: Save=40.54ms
+[2017.06.19-09.36.01:148][929]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP9A974FD5472F9D89E1EFF6A5ACC29031.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.36.01:151][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.36.11:201][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.36.11:245][ 15]LogSavePackage: Save=40.68ms
+[2017.06.19-09.36.11:245][ 15]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPD2B614C140A13DD9C6519C92A4E3269F.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.36.11:248][ 15]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.36.11:827][ 84]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.36.13:500][255]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.36.13:519][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.36.13:519][255]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:36:13)
+[2017.06.19-09.36.13:519][255]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.36.13:521][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001693s)
+[2017.06.19-09.36.13:522][255]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.36.13:522][255]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2017.06.19-09.36.13:522][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002937s)
+[2017.06.19-09.36.13:538][255]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.36.13:545][255]LogInit: FAudioDevice initialized.
+[2017.06.19-09.36.13:573][255]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.36.13:575][255]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.36.13
+[2017.06.19-09.36.13:575][255]LogWorld: Bringing up level for play took: 0.000967
+[2017.06.19-09.36.13:577][255]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.49
+[2017.06.19-09.36.24:088][494]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.36.24:892][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.36.24:936][550]LogSavePackage: Save=39.47ms
+[2017.06.19-09.36.24:936][550]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPA90D51784F8F6CFB091B0FB7BBDCC8D4.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.36.24:939][550]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.37.29:217][430]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.37.30:140][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.37.30:187][492]LogSavePackage: Save=41.60ms
+[2017.06.19-09.37.30:187][492]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP0D63D433469A40EF8414B6AC6AF0CBB6.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.37.30:190][492]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.37.58:821][569]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.37.59:756][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.37.59:800][614]LogSavePackage: Save=40.58ms
+[2017.06.19-09.37.59:800][614]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP865EE5064B649925AE2FE7979851E7DC.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.37.59:803][614]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.38.19:191][770]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.38.22:565][137]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.38.23:302][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.38.23:346][185]LogSavePackage: Save=40.48ms
+[2017.06.19-09.38.23:346][185]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPC9F2DBDD418A11A53D3E2C8139CACB14.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.38.23:349][185]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.38.25:459][431]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.38.25:478][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.38.25:479][431]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:38:25)
+[2017.06.19-09.38.25:479][431]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.38.25:481][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001952s)
+[2017.06.19-09.38.25:482][431]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.38.25:482][431]LogPlayLevel: PIE: World Init took: (0.001183s)
+[2017.06.19-09.38.25:482][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003388s)
+[2017.06.19-09.38.25:499][431]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.38.25:507][431]LogInit: FAudioDevice initialized.
+[2017.06.19-09.38.25:540][431]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.38.25:543][431]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.38.25
+[2017.06.19-09.38.25:543][431]LogWorld: Bringing up level for play took: 0.001163
+[2017.06.19-09.38.25:545][431]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.522
+[2017.06.19-09.38.35:052][540]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.38.36:080][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.38.36:125][592]LogSavePackage: Save=40.73ms
+[2017.06.19-09.38.36:125][592]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPF6114A264321C60EB4F6E49126FF1B3E.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.38.36:128][592]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.38.37:635][768]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.38.37:654][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.38.37:654][768]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:38:37)
+[2017.06.19-09.38.37:654][768]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.38.37:656][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001720s)
+[2017.06.19-09.38.37:657][768]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.38.37:657][768]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2017.06.19-09.38.37:657][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003289s)
+[2017.06.19-09.38.37:673][768]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.38.37:680][768]LogInit: FAudioDevice initialized.
+[2017.06.19-09.38.37:707][768]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.38.37:709][768]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.38.37
+[2017.06.19-09.38.37:709][768]LogWorld: Bringing up level for play took: 0.000968
+[2017.06.19-09.38.37:711][768]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.356
+[2017.06.19-09.38.44:837][590]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.38.45:824][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.38.45:869][639]LogSavePackage: Save=40.99ms
+[2017.06.19-09.38.45:869][639]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP982741C346417087EFA24089FF5A1FBF.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.38.45:872][639]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.38.52:271][203]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.38.53:112][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.38.53:156][252]LogSavePackage: Save=40.80ms
+[2017.06.19-09.38.53:156][252]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPDD36545846204644333BD3A9576D5363.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.38.53:159][252]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.38.54:650][423]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.38.54:670][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.38.54:670][423]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:38:54)
+[2017.06.19-09.38.54:670][423]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.38.54:672][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001641s)
+[2017.06.19-09.38.54:673][423]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.38.54:673][423]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2017.06.19-09.38.54:673][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002718s)
+[2017.06.19-09.38.54:689][423]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.38.54:696][423]LogInit: FAudioDevice initialized.
+[2017.06.19-09.38.54:726][423]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.38.54:729][423]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.38.54
+[2017.06.19-09.38.54:729][423]LogWorld: Bringing up level for play took: 0.000998
+[2017.06.19-09.38.54:731][423]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.664
+[2017.06.19-09.39.21:059][353]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.39.22:015][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.39.22:059][398]LogSavePackage: Save=41.09ms
+[2017.06.19-09.39.22:059][398]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP20DB725E44272A0AF7182C88206A3A05.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.39.22:062][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.39.23:288][540]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.39.23:306][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.39.23:306][540]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:39:23)
+[2017.06.19-09.39.23:306][540]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.39.23:308][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001522s)
+[2017.06.19-09.39.23:309][540]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.39.23:309][540]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2017.06.19-09.39.23:309][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002645s)
+[2017.06.19-09.39.23:324][540]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.39.23:331][540]LogInit: FAudioDevice initialized.
+[2017.06.19-09.39.23:360][540]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.39.23:362][540]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.39.23
+[2017.06.19-09.39.23:362][540]LogWorld: Bringing up level for play took: 0.001030
+[2017.06.19-09.39.23:364][540]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.703
+[2017.06.19-09.39.28:767][173]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.39.30:065][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.39.30:108][260]LogSavePackage: Save=39.99ms
+[2017.06.19-09.39.30:109][260]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPA340075A47AD7AD97ADFDB9C0230D669.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.39.30:111][260]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.39.54:349][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.39.54:392][523]LogSavePackage: Save=39.94ms
+[2017.06.19-09.39.54:392][523]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP90C31E694A19148887E6FFA9AEE31D71.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.39.54:395][523]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.39.55:427][640]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.39.58:184][907]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.39.58:204][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.39.58:204][907]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:39:58)
+[2017.06.19-09.39.58:204][907]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.39.58:206][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001669s)
+[2017.06.19-09.39.58:207][907]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.39.58:207][907]LogPlayLevel: PIE: World Init took: (0.001379s)
+[2017.06.19-09.39.58:207][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003378s)
+[2017.06.19-09.39.58:223][907]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.39.58:230][907]LogInit: FAudioDevice initialized.
+[2017.06.19-09.39.58:265][907]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.39.58:268][907]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.39.58
+[2017.06.19-09.39.58:268][907]LogWorld: Bringing up level for play took: 0.001816
+[2017.06.19-09.39.58:272][907]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.205
+[2017.06.19-09.40.13:557][700]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.40.14:529][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.40.14:573][746]LogSavePackage: Save=40.25ms
+[2017.06.19-09.40.14:573][746]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPAAF0DDF64985660B3D8875A70529EFC6.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.40.14:576][746]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.40.19:746][160]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.40.20:693][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.40.20:737][222]LogSavePackage: Save=40.47ms
+[2017.06.19-09.40.20:737][222]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP793A17064EA83E0810768D97B122B856.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.40.20:740][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.40.22:582][436]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.40.22:601][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.40.22:601][436]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:40:22)
+[2017.06.19-09.40.22:601][436]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.40.22:603][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001492s)
+[2017.06.19-09.40.22:603][436]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.40.22:604][436]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2017.06.19-09.40.22:604][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002499s)
+[2017.06.19-09.40.22:620][436]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.40.22:627][436]LogInit: FAudioDevice initialized.
+[2017.06.19-09.40.22:661][436]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.40.22:663][436]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.40.22
+[2017.06.19-09.40.22:663][436]LogWorld: Bringing up level for play took: 0.000949
+[2017.06.19-09.40.22:665][436]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.598
+[2017.06.19-09.40.36:891][121]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.40.37:609][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.40.37:657][152]LogSavePackage: Save=40.37ms
+[2017.06.19-09.40.37:657][152]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPD5B7E9D64F838C7686A3B38F35C63D98.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.40.37:659][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.40.45:131][  8]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.40.45:150][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.40.45:150][  8]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:40:45)
+[2017.06.19-09.40.45:150][  8]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.40.45:151][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001554s)
+[2017.06.19-09.40.45:152][  8]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.40.45:152][  8]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2017.06.19-09.40.45:153][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002799s)
+[2017.06.19-09.40.45:170][  8]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.40.45:177][  8]LogInit: FAudioDevice initialized.
+[2017.06.19-09.40.45:208][  8]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.40.45:211][  8]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.40.45
+[2017.06.19-09.40.45:212][  8]LogWorld: Bringing up level for play took: 0.001897
+[2017.06.19-09.40.45:215][  8]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.852
+[2017.06.19-09.40.52:858][889]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.40.56:769][287]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.40.56:789][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.40.56:789][287]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:40:56)
+[2017.06.19-09.40.56:789][287]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.40.56:791][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001479s)
+[2017.06.19-09.40.56:792][287]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.40.56:792][287]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2017.06.19-09.40.56:792][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002920s)
+[2017.06.19-09.40.56:808][287]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.40.56:815][287]LogInit: FAudioDevice initialized.
+[2017.06.19-09.40.56:848][287]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.40.56:850][287]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.40.56
+[2017.06.19-09.40.56:850][287]LogWorld: Bringing up level for play took: 0.001049
+[2017.06.19-09.40.56:852][287]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.785
+[2017.06.19-09.41.04:460][171]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.41.05:942][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.41.05:986][278]LogSavePackage: Save=40.57ms
+[2017.06.19-09.41.05:986][278]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPE2616FD649BC1BC5F8AE5BAFD5D2B958.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.41.05:988][278]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.41.29:939][886]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.41.30:847][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.41.30:891][926]LogSavePackage: Save=40.74ms
+[2017.06.19-09.41.30:891][926]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPA26E69754173B450AE9065A9039E6F76.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.41.30:894][926]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.41.32:344][ 89]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.41.32:364][ 89]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.41.32:364][ 89]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:41:32)
+[2017.06.19-09.41.32:364][ 89]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.41.32:366][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001775s)
+[2017.06.19-09.41.32:367][ 89]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.41.32:367][ 89]LogPlayLevel: PIE: World Init took: (0.001170s)
+[2017.06.19-09.41.32:368][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003243s)
+[2017.06.19-09.41.32:383][ 89]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.41.32:390][ 89]LogInit: FAudioDevice initialized.
+[2017.06.19-09.41.32:424][ 89]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.41.32:426][ 89]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.41.32
+[2017.06.19-09.41.32:426][ 89]LogWorld: Bringing up level for play took: 0.000975
+[2017.06.19-09.41.32:428][ 89]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.361
+[2017.06.19-09.41.39:366][906]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.41.40:443][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.41.40:487][966]LogSavePackage: Save=40.66ms
+[2017.06.19-09.41.40:487][966]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPEB73415A4CF596B7AF2641890AE76D21.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.41.40:491][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.41.44:242][394]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.41.45:358][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.41.45:404][455]LogSavePackage: Save=42.11ms
+[2017.06.19-09.41.45:404][455]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP38053FE44A4EB24590D1BFBC0E9C9024.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.41.45:407][455]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.41.47:925][748]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.41.48:626][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.41.48:669][792]LogSavePackage: Save=39.31ms
+[2017.06.19-09.41.48:669][792]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPB135B3F34C155C62827DE594C1FA7FFC.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.41.48:672][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.42.15:828][834]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.42.16:742][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.42.16:786][903]LogSavePackage: Save=40.46ms
+[2017.06.19-09.42.16:786][903]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPA7FCAFA3488C311FDCBFCDBA8D2BFBEB.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.42.16:789][903]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.42.18:507][102]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.42.18:527][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.42.18:527][102]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:42:18)
+[2017.06.19-09.42.18:527][102]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.42.18:529][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001489s)
+[2017.06.19-09.42.18:530][102]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.42.18:530][102]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2017.06.19-09.42.18:530][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003225s)
+[2017.06.19-09.42.18:546][102]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.42.18:553][102]LogInit: FAudioDevice initialized.
+[2017.06.19-09.42.18:584][102]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.42.18:586][102]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.42.18
+[2017.06.19-09.42.18:586][102]LogWorld: Bringing up level for play took: 0.001002
+[2017.06.19-09.42.18:588][102]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.521
+[2017.06.19-09.43.49:647][793]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.43.50:363][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.43.50:408][838]LogSavePackage: Save=41.63ms
+[2017.06.19-09.43.50:408][838]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPCDBAF9E34C0516C333D6E987995E1DE7.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.43.50:411][838]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.43.56:304][541]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.43.56:324][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.43.56:325][541]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:43:56)
+[2017.06.19-09.43.56:325][541]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.43.56:326][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001720s)
+[2017.06.19-09.43.56:327][541]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.43.56:327][541]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2017.06.19-09.43.56:328][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003050s)
+[2017.06.19-09.43.56:344][541]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.43.56:351][541]LogInit: FAudioDevice initialized.
+[2017.06.19-09.43.56:379][541]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.43.56:382][541]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.43.56
+[2017.06.19-09.43.56:382][541]LogWorld: Bringing up level for play took: 0.000946
+[2017.06.19-09.43.56:384][541]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.317
+[2017.06.19-09.44.24:455][885]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.44.25:562][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.44.25:606][977]LogSavePackage: Save=41.38ms
+[2017.06.19-09.44.25:606][977]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPFCE90D4A4E6A3D1AFA85C391D336A955.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.44.25:610][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.45.11:667][396]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.45.12:353][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.45.12:410][436]LogSavePackage: Save=53.31ms
+[2017.06.19-09.45.12:410][436]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPEA97ABA745349F8BFEA4ECA99B6CE04C.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.45.12:413][436]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.45.13:738][583]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.45.13:758][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.45.13:758][583]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:45:13)
+[2017.06.19-09.45.13:758][583]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.45.13:760][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001745s)
+[2017.06.19-09.45.13:760][583]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.45.13:761][583]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2017.06.19-09.45.13:761][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002911s)
+[2017.06.19-09.45.13:776][583]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.45.13:784][583]LogInit: FAudioDevice initialized.
+[2017.06.19-09.45.13:814][583]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.45.13:816][583]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.45.13
+[2017.06.19-09.45.13:816][583]LogWorld: Bringing up level for play took: 0.001077
+[2017.06.19-09.45.13:818][583]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.249
+[2017.06.19-09.45.51:920][132]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.45.52:883][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.45.52:932][204]LogSavePackage: Save=42.41ms
+[2017.06.19-09.45.52:933][204]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBPE1D117AE4A2C3713234C3788EF820E3F.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.45.52:936][204]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.46.01:357][209]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.46.01:372][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.46.01:372][209]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:46:01)
+[2017.06.19-09.46.01:372][209]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.46.01:374][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001619s)
+[2017.06.19-09.46.01:375][209]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.46.01:375][209]LogPlayLevel: PIE: World Init took: (0.001007s)
+[2017.06.19-09.46.01:375][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002949s)
+[2017.06.19-09.46.01:392][209]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.46.01:399][209]LogInit: FAudioDevice initialized.
+[2017.06.19-09.46.01:432][209]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.46.01:434][209]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.46.01
+[2017.06.19-09.46.01:434][209]LogWorld: Bringing up level for play took: 0.001050
+[2017.06.19-09.46.01:436][209]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.631
+[2017.06.19-09.46.12:416][465]Cmd: SELECT NONE
+[2017.06.19-09.46.13:391][582]Cmd: TRANSACTION UNDO
+[2017.06.19-09.46.13:391][582]LogEditorTransaction: Undo 선택 않음
+[2017.06.19-09.46.13:472][582]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.06.19-09.46.13:477][582]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.06.19-09.46.14:626][714]Cmd: TRANSACTION UNDO
+[2017.06.19-09.46.14:626][714]LogEditorTransaction: Undo 액터 생성
+[2017.06.19-09.46.14:633][714]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.06.19-09.46.14:635][714]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.06.19-09.46.18:243][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FinalExamMap" FILE="../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.19-09.46.18:295][126]LogSavePackage: Save=27.33ms
+[2017.06.19-09.46.18:295][126]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/FinalExamMap5442AC6C446396CFFE3EF4AB61211DCF.tmp' to '../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap'
+[2017.06.19-09.46.18:298][126]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap
+[2017.06.19-09.47.00:707][953]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.19-09.48.28:364][406]BlueprintLog: New page: GunItem 컴파일
+[2017.06.19-09.48.29:346][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Item/GunItem" FILE="../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset" SILENT=true
+[2017.06.19-09.48.29:366][454]LogSavePackage: Save=17.94ms
+[2017.06.19-09.48.29:366][454]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunItem7BB00A214DC5DA53A31FE8AD3F540164.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset'
+[2017.06.19-09.48.29:378][454]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset
+[2017.06.19-09.49.14:671][778]BlueprintLog: New page: GunItem 컴파일
+[2017.06.19-09.49.15:675][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Item/GunItem" FILE="../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset" SILENT=true
+[2017.06.19-09.49.15:699][832]LogSavePackage: Save=17.87ms
+[2017.06.19-09.49.15:699][832]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunItem13C32AAB4856B1DCFF69B692E7F77D28.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset'
+[2017.06.19-09.49.15:702][832]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset
+[2017.06.19-09.49.40:881][639]BlueprintLog: New page: GunItem 컴파일
+[2017.06.19-09.49.41:706][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Item/GunItem" FILE="../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset" SILENT=true
+[2017.06.19-09.49.41:728][695]LogSavePackage: Save=18.53ms
+[2017.06.19-09.49.41:728][695]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunItem1B5CE1DA47A12EBA01C66780D464821F.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset'
+[2017.06.19-09.49.41:732][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset
+[2017.06.19-09.50.03:130][ 66]BlueprintLog: New page: GunItem 컴파일
+[2017.06.19-09.50.03:913][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Item/GunItem" FILE="../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset" SILENT=true
+[2017.06.19-09.50.03:936][130]LogSavePackage: Save=18.50ms
+[2017.06.19-09.50.03:936][130]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunItem0AD5F82C4E5726CB1690959603EA67B0.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset'
+[2017.06.19-09.50.03:938][130]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset
+[2017.06.19-09.50.36:500][790]BlueprintLog: New page: HeroBP 컴파일
+[2017.06.19-09.50.37:408][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HeroBP" FILE="../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset" SILENT=true
+[2017.06.19-09.50.37:453][856]LogSavePackage: Save=41.04ms
+[2017.06.19-09.50.37:453][856]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/HeroBP901089A644CF9F0AEA371BAD2F89FACB.tmp' to '../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset'
+[2017.06.19-09.50.37:457][856]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/HeroBP.uasset
+[2017.06.19-09.50.55:101][811]BlueprintLog: New page: GunItem 컴파일
+[2017.06.19-09.50.55:835][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Item/GunItem" FILE="../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset" SILENT=true
+[2017.06.19-09.50.55:858][870]LogSavePackage: Save=19.60ms
+[2017.06.19-09.50.55:858][870]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunItem6AECAC3140B7CB58508FB3BA4A2FDA74.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset'
+[2017.06.19-09.50.55:861][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset
+[2017.06.19-09.51.25:785][164]BlueprintLog: New page: GunItem 컴파일
+[2017.06.19-09.51.26:599][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FinalExamMap" FILE="../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.19-09.51.26:651][207]LogSavePackage: Save=29.16ms
+[2017.06.19-09.51.26:651][207]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/FinalExamMap87A14C854F6BE9C3529674822E835363.tmp' to '../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap'
+[2017.06.19-09.51.26:654][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/FinalExamMap.umap
+[2017.06.19-09.51.26:683][207]LogFileHelpers: Saving map 'FinalExamMap' took 0.127
+[2017.06.19-09.51.26:703][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Item/GunItem" FILE="../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset" SILENT=true
+[2017.06.19-09.51.26:725][207]LogSavePackage: Save=18.78ms
+[2017.06.19-09.51.26:725][207]LogSavePackage: Moving '../../../../../../Users/36/Desktop/Final/Saved/GunItem8733F86F442C8D45289BCFA55A836E9A.tmp' to '../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset'
+[2017.06.19-09.51.26:728][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/36/Desktop/Final/Content/Item/GunItem.uasset
+[2017.06.19-09.51.28:874][450]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.51.28:898][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.51.28:898][450]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:51:28)
+[2017.06.19-09.51.28:898][450]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.51.28:900][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001711s)
+[2017.06.19-09.51.28:901][450]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.51.28:901][450]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2017.06.19-09.51.28:901][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002832s)
+[2017.06.19-09.51.28:922][450]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.51.28:929][450]LogInit: FAudioDevice initialized.
+[2017.06.19-09.51.28:962][450]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.51.28:964][450]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.51.28
+[2017.06.19-09.51.28:964][450]LogWorld: Bringing up level for play took: 0.001100
+[2017.06.19-09.51.28:966][450]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.899
+[2017.06.19-09.51.45:090][313]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.51.45:111][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.51.45:111][313]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:51:45)
+[2017.06.19-09.51.45:111][313]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.51.45:113][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001500s)
+[2017.06.19-09.51.45:113][313]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.51.45:113][313]LogPlayLevel: PIE: World Init took: (0.000857s)
+[2017.06.19-09.51.45:114][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.002607s)
+[2017.06.19-09.51.45:138][313]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.51.45:144][313]LogInit: FAudioDevice initialized.
+[2017.06.19-09.51.45:179][313]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.51.45:183][313]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.51.45
+[2017.06.19-09.51.45:183][313]LogWorld: Bringing up level for play took: 0.002138
+[2017.06.19-09.51.45:187][313]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: -0.88
+[2017.06.19-09.51.52:681][156]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.06.19-09.51.52:697][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-09.51.52:697][156]PIE: New page: PIE 세션: FinalExamMap (2017. 6. 20. 오전 3:51:52)
+[2017.06.19-09.51.52:697][156]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FinalExamMap
+[2017.06.19-09.51.52:699][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001489s)
+[2017.06.19-09.51.52:700][156]LogAIModule: Creating AISystem for world FinalExamMap
+[2017.06.19-09.51.52:700][156]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2017.06.19-09.51.52:700][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FinalExamMap.FinalExamMap to /Game/UEDPIE_0_FinalExamMap.FinalExamMap (0.003121s)
+[2017.06.19-09.51.52:719][156]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-09.51.52:726][156]LogInit: FAudioDevice initialized.
+[2017.06.19-09.51.52:753][156]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.06.19-09.51.52:755][156]LogWorld: Bringing World /Game/UEDPIE_0_FinalExamMap.FinalExamMap up for play (max tick rate 0) at 2017.06.19-18.51.52
+[2017.06.19-09.51.52:755][156]LogWorld: Bringing up level for play took: 0.001160
+[2017.06.19-09.51.52:757][156]PIE: 정보 /Game/UEDPIE_0_FinalExamMap 에 대한 에디터에서 플레이 시작 시간: 0.69
+[2017.06.19-09.54.05:623][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.19-09.54.05:854][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.19-09.54.06:040][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.19-09.54.06:360][627]Cmd: QUIT_EDITOR
+[2017.06.19-09.54.07:012][627]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.19-09.54.07:039][627]LogExit: Preparing to exit.
+[2017.06.19-09.54.07:614][627]LogDirectoryWatcher: A directory notification for 'C:/Users/36/Desktop/Final/Content/' was aborted.
+[2017.06.19-09.54.07:701][627]LogExit: Editor shut down
+[2017.06.19-09.54.07:702][627]LogExit: Transaction tracking system shut down
+[2017.06.19-09.54.07:844][627]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.19-09.54.07:844][627]LogExit: Object subsystem successfully closed.
+[2017.06.19-09.54.07:869][627]LogD3D11RHI: Shutdown
+[2017.06.19-09.54.07:869][627]LogD3D11RHI: CleanupD3DDevice
+[2017.06.19-09.54.07:990][627]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.19-09.54.08:014][627]LogModuleManager: Shutting down and abandoning module AnimationEditor (508)
+[2017.06.19-09.54.08:014][627]LogModuleManager: Shutting down and abandoning module SkeletonEditor (506)
+[2017.06.19-09.54.08:014][627]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (504)
+[2017.06.19-09.54.08:014][627]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (502)
+[2017.06.19-09.54.08:014][627]LogModuleManager: Shutting down and abandoning module BlueprintGraph (500)
+[2017.06.19-09.54.08:014][627]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (498)
+[2017.06.19-09.54.08:021][627]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.06.19-09.54.08:021][627]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.06.19-09.54.08:021][627]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.06.19-09.54.08:021][627]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.06.19-09.54.08:021][627]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.06.19-09.54.08:026][627]LogDirectoryWatcher: A directory notification for 'C:/Users/36/Desktop/Final/Content/Collections/' was aborted.
+[2017.06.19-09.54.08:026][627]LogDirectoryWatcher: A directory notification for 'C:/Users/36/Desktop/Final/Content/Developers/36/Collections/' was aborted.
+[2017.06.19-09.54.08:026][627]LogDirectoryWatcher: A directory notification for 'C:/Users/36/Desktop/Final/Saved/Collections/' was aborted.
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.06.19-09.54.08:026][627]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.06.19-09.54.08:027][627]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.06.19-09.54.08:912][627]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.06.19-09.54.08:912][627]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.06.19-09.54.08:912][627]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.06.19-09.54.08:913][627]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.06.19-09.54.08:956][627]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.06.19-09.54.08:956][627]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.06.19-09.54.08:956][627]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.06.19-09.54.08:956][627]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.06.19-09.54.08:956][627]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.06.19-09.54.08:956][627]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.06.19-09.54.08:956][627]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.06.19-09.54.08:956][627]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.06.19-09.54.08:956][627]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.06.19-09.54.08:963][627]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.06.19-09.54.08:963][627]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.06.19-09.54.08:964][627]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.06.19-09.54.08:964][627]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.06.19-09.54.08:964][627]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.06.19-09.54.08:964][627]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.06.19-09.54.08:964][627]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.06.19-09.54.08:965][627]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.06.19-09.54.08:965][627]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.06.19-09.54.08:965][627]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.06.19-09.54.08:965][627]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.06.19-09.54.08:965][627]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.06.19-09.54.08:965][627]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.06.19-09.54.08:965][627]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.06.19-09.54.08:965][627]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.06.19-09.54.08:965][627]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.06.19-09.54.08:965][627]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.06.19-09.54.08:965][627]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.06.19-09.54.09:110][627]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.06.19-09.54.09:112][627]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.06.19-09.54.09:112][627]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.06.19-09.54.09:112][627]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.06.19-09.54.09:112][627]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.19-09.54.09:114][627]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.06.19-09.54.09:114][627]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.06.19-09.54.09:114][627]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.06.19-09.54.09:114][627]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.06.19-09.54.09:215][627]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.06.19-09.54.09:315][627]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.06.19-09.54.09:315][627]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.06.19-09.54.09:315][627]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.06.19-09.54.09:315][627]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.06.19-09.54.09:315][627]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.06.19-09.54.09:315][627]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.06.19-09.54.09:315][627]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.06.19-09.54.09:316][627]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.06.19-09.54.09:316][627]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.06.19-09.54.09:316][627]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.06.19-09.54.09:316][627]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.06.19-09.54.09:316][627]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.06.19-09.54.09:316][627]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.06.19-09.54.09:316][627]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.06.19-09.54.09:316][627]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.06.19-09.54.09:316][627]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.06.19-09.54.09:316][627]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.06.19-09.54.09:316][627]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.06.19-09.54.09:316][627]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.06.19-09.54.09:317][627]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.06.19-09.54.09:317][627]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.06.19-09.54.09:317][627]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.06.19-09.54.09:317][627]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.06.19-09.54.09:317][627]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.06.19-09.54.09:322][627]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.06.19-09.54.09:322][627]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.06.19-09.54.09:322][627]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.06.19-09.54.09:322][627]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.06.19-09.54.09:322][627]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.06.19-09.54.09:322][627]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.06.19-09.54.09:456][627]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.19-09.54.09:457][627]LogDirectoryWatcher: A directory notification for '../../../../../../Users/36/Desktop/Final/Content/' was aborted.
+[2017.06.19-09.54.09:457][627]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.19-09.54.09:457][627]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.06.19-09.54.09:460][627]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.06.19-09.54.09:460][627]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.06.19-09.54.09:460][627]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.06.19-09.54.09:460][627]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.06.19-09.54.09:461][627]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.06.19-09.54.09:461][627]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.06.19-09.54.09:461][627]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.06.19-09.54.09:461][627]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.06.19-09.54.09:506][627]LogDerivedDataCache: Shutdown
+[2017.06.19-09.54.09:506][627]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.06.19-09.54.09:507][627]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.19-09.54.09:508][627]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.19-09.54.09:508][627]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.19-09.54.09:508][627]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.19-09.54.09:508][627]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B97CCDB8C-486C-70A3-619B-84B6339CD7F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=aa120d454f3476d56d3e069d489f5ee6%7C625225da24bf49bd9dcc94f8eb08c150%7C346cd03d-7ee6-42a2-bcee-685e60df650f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.19-09.54.09:517][627]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.19-09.54.09:519][627]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.19-09.54.09:519][627]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.19-09.54.09:519][627]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.19-09.54.09:519][627]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.19-09.54.09:519][627]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.19-09.54.09:532][627]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.19-09.54.09:532][627]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.19-09.54.09:532][627]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.19-09.54.09:532][627]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.19-09.54.09:532][627]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.19-09.54.09:532][627]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.19-09.54.09:532][627]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.19-09.54.09:532][627]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.19-09.54.09:532][627]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.19-09.54.09:532][627]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.19-09.54.09:534][627]LogExit: Exiting.
+[2017.06.19-09.54.09:550][627]Log file closed, 06/19/17 18:54:09
